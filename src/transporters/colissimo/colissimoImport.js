@@ -138,14 +138,9 @@ async function loginColissimoImport() {
       await delay(1000);
 
       // Étape 12 : Cliquer sur la croix 
-      await page.evaluate(() => {
-        const button = document.querySelector("#cdk-accordion-child-5 > div > form > div.search-row > div.criteria-list > div:nth-child(3) > app-dynamic-input > div > div.criterion-selector.ng-star-inserted > button > span.mat-button-wrapper > mat-icon");
-        if (button) {
-          button.click();
-        } else {
-          throw new Error('Bouton non trouvé');
-        }
-      });
+      await page.waitForSelector('#cdk-accordion-child-3 > div > form > div.search-row > div.criteria-list > div:nth-child(3) > app-dynamic-input > div > div.criterion-selector.ng-star-inserted > button > span.mat-button-wrapper > mat-icon', { visible: true, timeout: 60000 });
+      await page.click('#cdk-accordion-child-3 > div > form > div.search-row > div.criteria-list > div:nth-child(3) > app-dynamic-input > div > div.criterion-selector.ng-star-inserted > button > span.mat-button-wrapper > mat-icon'), (element) => element.click();
+
       await delay(1000);
       // étape 13 : cliquer sur expediteur 
       await page.waitForSelector('#mat-select-value-9', { visible: true, timeout: 60000 });

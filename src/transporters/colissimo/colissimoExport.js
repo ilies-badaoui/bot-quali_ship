@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const { checkForNewReclamations } = require('../../sftp/sftpClientColissimo');
+const { checkForNewReclamations, uploadToSftp } = require('../../sftp/sftpClientColissimo');
 const fs = require('fs');
 const path = require('path');
 
@@ -16,6 +16,20 @@ async function loginColissimoForFile(filePath, fileName) {
     const page = await browser.newPage();
 
     try {
+
+    // Dossier temporaire pour le téléchargement
+    const tempDownloadPath = path.resolve(__dirname, "temp_download");
+    // Créer le dossier temporaire s'il n'existe pas
+    if (!fs.existsSync(tempDownloadPath)) {
+      fs.mkdirSync(tempDownloadPath);
+    }
+
+    // Configurer Puppeteer pour télécharger les fichiers dans le dossier temporaire
+    await page._client().send("Page.setDownloadBehavior", {
+      behavior: "allow",
+      downloadPath: tempDownloadPath,
+    });
+
       // Lancer la page 
       await page.goto('https://www.colissimo.entreprise.laposte.fr/', { waitUntil: 'networkidle2' });
 
@@ -140,7 +154,57 @@ async function loginColissimoForFile(filePath, fileName) {
         await page.waitForSelector('#service-depot-btn-importer > span.mat-button-wrapper', { visible: true, timeout: 60000 });
         await page.$eval('#service-depot-btn-importer > span.mat-button-wrapper', (element) => element.click());
         console.log('fichier bien envoyer !.');
-        await delay(5000);  // Attendre 5 secondes avant de supprimer le fichier
+        await delay(1000);  // Attendre 1 secondes avant de supprimer le fichier
+
+        // étape 16 : cliquer sur continuer
+        await page.waitForSelector('#mat-dialog-0 > app-dialog > div.footer > button:nth-child(2)', { visible: true, timeout: 60000 });
+        await page.$eval('#mat-dialog-0 > app-dialog > div.footer > button:nth-child(2)', (element) => element.click());
+        await delay(1000);
+
+        // étape 17 : cliquer sur OK 
+        await page.waitForSelector('#mat-dialog-1 > app-dialog > div.footer > button', { visible: true, timeout: 60000 });
+        await page.$eval('#mat-dialog-1 > app-dialog > div.footer > button', (element) => element.click());
+        await delay(1000);
+
+        // étape 18 : Lancer le téléchargement 
+        await page.waitForSelector('#service-depot-lin-telecharger', { visible: true, timeout: 60000 });
+        await page.$eval('#service-depot-lin-telecharger', (element) => element.click());
+        await delay(1000);
+        console.log('Téléchargement terminé');
+
+        // Chercher le fichier téléchargé dans le dossier temporaire
+      const downloadedFiles = fs.readdirSync(tempDownloadPath);
+      const exportFile = downloadedFiles.find(
+        (file) => file.startsWith("IMPORT") && file.endsWith(".csv")
+      );
+
+      if (exportFile) {
+        console.log(`Fichier téléchargé : ${exportFile}`);
+
+        // Chemin du fichier téléchargé
+      const tempFilePath = path.join(tempDownloadPath, exportFile);
+      // Chemin final dans le dossier retourReclamation
+      const finalDownloadPath = path.join(
+        "C:/Users/badao/Desktop/bot-quali-ship/src/retourReclamation",
+        exportFile
+      );
+      // Déplacer le fichier dans le dossier final
+      fs.renameSync(tempFilePath, finalDownloadPath);
+      console.log(`Fichier déplacé vers : ${finalDownloadPath}`);
+
+      try {
+        await uploadToSftp(finalDownloadPath);
+        console.log('Fichier transféré sur le serveur SFTP avec succès !');
+
+        // Supprimer le fichier local après le transfert
+        fs.unlinkSync(finalDownloadPath);
+        console.log(`Fichier supprimé : ${finalDownloadPath}`);
+      }catch (error) {
+        console.error('Erreur lors du transfert du fichier SFTP:', error);
+      }
+    } else {
+      console.log('Aucun fichier CSV trouvé dans le répertoire.');
+    }
 
         // Supprimer le fichier local après l'attente
         try {
@@ -151,7 +215,7 @@ async function loginColissimoForFile(filePath, fileName) {
         }
         
         // Attendre 10 secondes
-        await delay(10000);
+        await delay(60000);
       } else {
         console.log('Connexion échouée.');
       }

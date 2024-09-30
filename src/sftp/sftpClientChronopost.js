@@ -24,7 +24,7 @@ async function checkForNewReclamations() {
       // Téléchargez les nouvelles réclamations
       for (const file of newReclamations) {
         const remoteFilePath = `/test/export/chronopost/${file.name}`;
-        const localFilePath = `C:/Users/Tony/Desktop/bot-quali-ship/src/dossierReclamation/${file.name}`;
+        const localFilePath = `C:/Users/badao/Desktop/bot-quali-ship/src/dossierReclamation/${file.name}`;
         await sftp.get(remoteFilePath, localFilePath);
         console.log(`Téléchargé ${file.name} dans ${localFilePath}`);
         downloadedFiles.push(localFilePath); // Ajouter le chemin local du fichier téléchargé
@@ -55,7 +55,7 @@ async function getFileFromSFTP() {
     const remoteFilePath =
       "/test/export/chronopost/colis_reclamation_Chrono_20240920142700.csv";
     const localFilePath =
-      "C:/Users/Tony/Desktop/bot-quali-ship/src/dossierReclamation/colis_reclamation_Chrono_20240920142700.csv";
+      "C:/Users/badao/Desktop/bot-quali-ship/src/dossierReclamation/colis_reclamation_Chrono_20240920142700.csv";
     await sftp.get(remoteFilePath, localFilePath);
     console.log("Fichier téléchargé dans le répertoire dossierReclamation");
 

@@ -11,7 +11,7 @@ async function checkForNewReclamations() {
       password: 'JC<2AI$WR+5Fe^LW'
     });
     
-    const fileList = await sftp.list('/test/export/laposte');
+    const fileList = await sftp.list('/test/export/laposte/new/');
     const newReclamations = fileList.filter(file => file.name.startsWith('colis_reclamation_') && file.name.endsWith('.csv'));
     
     if (newReclamations.length > 0) {
@@ -19,7 +19,7 @@ async function checkForNewReclamations() {
       
       // Télécharge les nouvelles réclamations
       for (const file of newReclamations) {
-        const remoteFilePath = `/test/export/laposte/${file.name}`;
+        const remoteFilePath = `/test/export/laposte/new/${file.name}`;
         const localFilePath = `C:/Users/badao/Desktop/bot-quali-ship/src/dossierReclamation/${file.name}`;
         await sftp.get(remoteFilePath, localFilePath);
         console.log(`Téléchargé ${file.name} dans ${localFilePath}`);

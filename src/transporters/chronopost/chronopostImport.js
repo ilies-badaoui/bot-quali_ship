@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
-const { uploadToSftp } = require("../../sftp/sftpClient");
+const { uploadToSftp } = require('../../sftp/sftpClientChronopost');
 
 async function delay(time) {
   return new Promise(function (resolve) {
@@ -75,7 +75,7 @@ async function loginChronopostImport() {
     page.on("dialog", async (dialog) => {
       if (dialog.type() === "fileChooser") {
         await dialog.accept(
-          "C:/Users/Tony/Desktop/bot-quali-ship/src/retourReclamation"
+          "C:/Users/badao/Desktop/bot-quali-ship/src/retourReclamation"
         );
       }
     });
@@ -98,7 +98,7 @@ async function loginChronopostImport() {
       const tempFilePath = path.join(tempDownloadPath, exportFile);
       // Chemin final dans le dossier retourReclamation
       const finalDownloadPath = path.join(
-        "C:/Users/Tony/Desktop/bot-quali-ship/src/retourReclamation",
+        "C:/Users/badao/Desktop/bot-quali-ship/src/retourReclamation",
         exportFile
       );
 
@@ -119,7 +119,7 @@ async function loginChronopostImport() {
   } catch (error) {
     console.error("Erreur lors de l'exécution du bot:", error);
   } finally {
-    await delay(10000);
+    await delay(5000);
     await browser.close();
   }
 }
