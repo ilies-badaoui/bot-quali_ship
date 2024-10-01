@@ -9,26 +9,37 @@ function delay(time) {
   });
 }
 
+function getFormattedDate() {
+  const date = new Date();
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  const hours = String(date.getHours()).padStart(2, '0');
+  const minutes = String(date.getMinutes()).padStart(2, '0');
+  const seconds = String(date.getSeconds()).padStart(2, '0');
+  return `${year}-${month}-${day}_${hours}-${minutes}-${seconds}`;
+}
+
+
 async function loginColissimoForFile(filePath, fileName) {
   const hasNewReclamations = await checkForNewReclamations();
   if (hasNewReclamations) {
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
+    const tempDownloadPath = path.resolve(__dirname, "temp_download");
 
     try {
 
-    // Dossier temporaire pour le téléchargement
-    const tempDownloadPath = path.resolve(__dirname, "temp_download");
-    // Créer le dossier temporaire s'il n'existe pas
-    if (!fs.existsSync(tempDownloadPath)) {
-      fs.mkdirSync(tempDownloadPath);
-    }
+      // Créer le dossier temporaire s'il n'existe pas
+      if (!fs.existsSync(tempDownloadPath)) {
+        fs.mkdirSync(tempDownloadPath);
+      }
 
-    // Configurer Puppeteer pour télécharger les fichiers dans le dossier temporaire
-    await page._client().send("Page.setDownloadBehavior", {
-      behavior: "allow",
-      downloadPath: tempDownloadPath,
-    });
+      // Configurer Puppeteer pour télécharger les fichiers dans le dossier temporaire
+      await page._client().send("Page.setDownloadBehavior", {
+        behavior: "allow",
+        downloadPath: tempDownloadPath,
+      });
 
       // Lancer la page 
       await page.goto('https://www.colissimo.entreprise.laposte.fr/', { waitUntil: 'networkidle2' });
@@ -154,72 +165,71 @@ async function loginColissimoForFile(filePath, fileName) {
         await page.waitForSelector('#service-depot-btn-importer > span.mat-button-wrapper', { visible: true, timeout: 60000 });
         await page.$eval('#service-depot-btn-importer > span.mat-button-wrapper', (element) => element.click());
         console.log('fichier bien envoyer !.');
-        await delay(1000);  // Attendre 1 secondes avant de supprimer le fichier
+        await delay(3000);  // Attendre 1 secondes avant de supprimer le fichier
 
-        // étape 16 : cliquer sur continuer
-        await page.waitForSelector('#mat-dialog-0 > app-dialog > div.footer > button:nth-child(2)', { visible: true, timeout: 60000 });
-        await page.$eval('#mat-dialog-0 > app-dialog > div.footer > button:nth-child(2)', (element) => element.click());
-        await delay(1000);
-
-        // étape 17 : cliquer sur OK 
-        await page.waitForSelector('#mat-dialog-1 > app-dialog > div.footer > button', { visible: true, timeout: 60000 });
-        await page.$eval('#mat-dialog-1 > app-dialog > div.footer > button', (element) => element.click());
-        await delay(1000);
-
-        // étape 18 : Lancer le téléchargement 
-        await page.waitForSelector('#service-depot-lin-telecharger', { visible: true, timeout: 60000 });
-        await page.$eval('#service-depot-lin-telecharger', (element) => element.click());
-        await delay(1000);
-        console.log('Téléchargement terminé');
-
-        // Chercher le fichier téléchargé dans le dossier temporaire
-      const downloadedFiles = fs.readdirSync(tempDownloadPath);
-      const exportFile = downloadedFiles.find(
-        (file) => file.startsWith("IMPORT") && file.endsWith(".csv")
-      );
-
-      if (exportFile) {
-        console.log(`Fichier téléchargé : ${exportFile}`);
-
-        // Chemin du fichier téléchargé
-      const tempFilePath = path.join(tempDownloadPath, exportFile);
-      // Chemin final dans le dossier retourReclamation
-      const finalDownloadPath = path.join(
-        "C:/Users/badao/Desktop/bot-quali-ship/src/retourReclamation",
-        exportFile
-      );
-      // Déplacer le fichier dans le dossier final
-      fs.renameSync(tempFilePath, finalDownloadPath);
-      console.log(`Fichier déplacé vers : ${finalDownloadPath}`);
-
-      try {
-        await uploadToSftp(finalDownloadPath);
-        console.log('Fichier transféré sur le serveur SFTP avec succès !');
-
-        // Supprimer le fichier local après le transfert
-        fs.unlinkSync(finalDownloadPath);
-        console.log(`Fichier supprimé : ${finalDownloadPath}`);
-      }catch (error) {
-        console.error('Erreur lors du transfert du fichier SFTP:', error);
-      }
-    } else {
-      console.log('Aucun fichier CSV trouvé dans le répertoire.');
-    }
-
-        // Supprimer le fichier local après l'attente
         try {
-          fs.unlinkSync(filePath);
-          console.log(`Fichier supprimé : ${filePath}`);
-        } catch (err) {
-          console.error(`Erreur lors de la suppression du fichier : ${err.message}`);
+          // étape 16 : essayer de cliquer sur "Continuer" si le bouton est visible
+          await page.waitForSelector('#mat-dialog-0 > app-dialog > div.footer > button:nth-child(2)', { visible: true, timeout: 3000 });
+          console.log("Le bouton Continuer est visible, on clique dessus.");
+          await page.$eval('#mat-dialog-0 > app-dialog > div.footer > button:nth-child(2)', (element) => element.click());
+          await delay(3000);  // Ajouter un délai pour s'assurer que l'action est complétée
+        } catch (error) {
+          console.log("Le bouton Continuer n'est pas visible, on passe à l'étape suivante.");
         }
-        
-        // Attendre 10 secondes
-        await delay(60000);
-      } else {
-        console.log('Connexion échouée.');
-      }
 
+        const okButton = await page.$('#mat-dialog-1 > app-dialog > div.footer > button');
+
+        if (okButton !== null) {  // Vérifier si le bouton est présent
+          console.log("Le bouton OK est visible, on clique dessus.");
+          await page.$eval('#mat-dialog-1 > app-dialog > div.footer > button', (element) => element.click());
+          await delay(1000);  // Ajouter un délai pour s'assurer que l'action est complétée
+        } else {
+          console.log("Le bouton OK n'est pas visible, on passe à l'étape suivante.");
+        }
+        // étape 18 : Lancer le téléchargement 
+        try {
+          // Vérifier si le bouton est déjà présent avant d'utiliser waitForSelector
+          const downloadButton = await page.$('#service-depot-lin-telecharger');
+
+          if (downloadButton !== null) {
+            console.log("Le bouton de téléchargement est déjà visible.");
+          } else {
+            console.log("Attente de l'apparition du bouton de téléchargement...");
+            await page.waitForSelector('#service-depot-lin-telecharger', { visible: true, timeout: 300000 });
+          }
+
+          await page.$eval('#service-depot-lin-telecharger', (element) => element.click());
+          await delay(3000);  // Ajouter un délai pour s'assurer que l'action est complétée
+          console.log("Bouton de téléchargement cliqué avec succès.");
+        } catch (error) {
+          console.error("Le bouton de téléchargement n'est pas apparu dans le délai imparti.");
+        }
+
+        // Téléchargement et traitement du fichier
+        const downloadedFiles = fs.readdirSync(tempDownloadPath);
+        const exportFile = downloadedFiles.find(file => file.startsWith("IMPORT") && file.endsWith(".csv"));
+
+        if (exportFile) {
+          const tempFilePath = path.join(tempDownloadPath, exportFile);
+          const formattedDate = getFormattedDate();
+          const finalDownloadFileName = `IMPORT_${formattedDate}.csv`;
+          const finalDownloadPath = path.join(
+            "C:/Users/badao/Desktop/bot-quali-ship/src/retourReclamation",
+            finalDownloadFileName
+          );
+
+          fs.renameSync(tempFilePath, finalDownloadPath);
+          console.log(`Fichier déplacé et renommé vers : ${finalDownloadPath}`);
+
+          await uploadToSftp(finalDownloadPath, fileName);
+          console.log('Fichier transféré avec succès !');
+
+          fs.unlinkSync(finalDownloadPath);
+          console.log(`Fichier supprimé localement : ${finalDownloadPath}`);
+        } else {
+          console.log('Aucun fichier téléchargé trouvé.');
+        }
+      }
     } catch (error) {
       console.error(`Erreur lors de la tentative de connexion pour ${fileName}:`, error);  // Utilisation correcte de fileName
     } finally {
@@ -229,34 +239,17 @@ async function loginColissimoForFile(filePath, fileName) {
 }
 
 async function loginColissimo() {
-  const hasNewReclamations = await checkForNewReclamations();
-  if (hasNewReclamations) {
-    // Récupérer tous les fichiers dans le répertoire "dossierReclamation"
-    const reclamationFolderPath = 'C:/Users/badao/Desktop/bot-quali-ship/src/dossierReclamation';
-    const files = fs.readdirSync(reclamationFolderPath);
-
-    // Rechercher les fichiers avec le format "colis_reclamation_*.csv"
-    const reclamationFiles = files.filter(file => file.startsWith('colis_reclamation_') && file.endsWith('.csv'));
-
-    if (reclamationFiles.length > 0) {
-      for (const fileName of reclamationFiles) {
-        const filePath = path.join(reclamationFolderPath, fileName);
-
-        // Lancer une nouvelle page pour chaque fichier
-        console.log(`Traitement du fichier : ${fileName}`);
-        await loginColissimoForFile(filePath, fileName);
-
-        // Attendre un petit délai entre chaque traitement
-        await delay(5000); // Attendre 5 secondes avant de passer au fichier suivant
-      }
-    } else {
-      console.log('Aucun fichier à uploader trouvé.');
+  const newReclamations = await checkForNewReclamations();
+  if (newReclamations.length > 0) {
+    for (const fileName of newReclamations) {
+      const filePath = `C:/Users/badao/Desktop/bot-quali-ship/src/dossierReclamation/${fileName}`;
+      console.log(`Traitement du fichier : ${fileName}`);
+      await loginColissimoForFile(filePath, fileName);
+      await delay(3000); // Attendre 3 secondes avant de traiter le fichier suivant
     }
   } else {
-    console.log('Aucune nouvelle réclamation trouvée, quitter le bot');
-    process.exit(0);
+    console.log('Aucune nouvelle réclamation trouvée.');
   }
 }
 
-// Lancer le bot
 module.exports = loginColissimo, loginColissimoForFile;
