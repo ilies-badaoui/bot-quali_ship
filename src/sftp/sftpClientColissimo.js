@@ -67,4 +67,55 @@ async function uploadToSftp(finalDownloadPath, originalExportFileName) {
   }
 }
 
-module.exports = { checkForNewReclamations, uploadToSftp };
+async function getInProgressClaims() {
+  const localDownloadPath = path.join(__dirname, 'temp_inprogress');
+  const remoteDirectory = '/export/laposte/inprogress/';
+
+  // Créer le répertoire local s'il n'existe pas
+  if (!fs.existsSync(localDownloadPath)) {
+    fs.mkdirSync(localDownloadPath);
+  }
+
+  try {
+    // Se connecter au serveur SFTP
+    await sftp.connect({
+      host: '152.228.216.3',
+      port: '22',
+      username: 'test',
+      password: 'JC<2AI$WR+5Fe^LW',
+    });
+
+    // Lister les fichiers dans le dossier SFTP "export/laposte/inprogress/"
+    const fileList = await sftp.list(remoteDirectory);
+    
+    // Filtrer pour trouver les fichiers JSON qui commencent par "complaint_"
+    const jsonFile = fileList.find(file => file.name.startsWith("complaint_") && file.name.endsWith(".json"));
+
+    if (jsonFile) {
+      const remoteFilePath = path.join(remoteDirectory, jsonFile.name);
+      const localFilePath = path.join(localDownloadPath, jsonFile.name);
+
+      // Télécharger le fichier du serveur SFTP
+      await sftp.get(remoteFilePath, localFilePath);
+      console.log(`Fichier récupéré : ${localFilePath}`);
+
+      // Lire et désérialiser le fichier JSON
+      const fileContent = fs.readFileSync(localFilePath, 'utf8');
+      const claims = JSON.parse(fileContent); // Désérialiser le JSON en objet
+      console.log('Réclamations désérialisées:', claims);
+      return claims;
+
+    } else {
+      console.log('Aucun fichier de réclamation trouvé dans le dossier SFTP.');
+      return [];
+    }
+
+  } catch (error) {
+    console.error('Erreur lors de la récupération des réclamations depuis le SFTP:', error);
+    return [];
+  } finally {
+    sftp.end();
+  }
+}
+
+module.exports = { checkForNewReclamations, uploadToSftp, getInProgressClaims };
