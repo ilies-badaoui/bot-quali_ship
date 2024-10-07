@@ -42,32 +42,6 @@ async function checkForNewReclamations() {
   }
 }
 
-async function getFileFromSFTP() {
-  try {
-    await sftp.connect({
-      host: "152.228.216.3",
-      port: "22",
-      username: "test",
-      password: "JC<2AI$WR+5Fe^LW",
-    });
-    const fileList = await sftp.list("/test/export/chronopost");
-    console.log("Files:", fileList);
-    const remoteFilePath =
-      "/test/export/chronopost/colis_reclamation_Chrono_20240920142700.csv";
-    const localFilePath =
-      "C:/Users/badao/Desktop/bot-quali-ship/src/dossierReclamation/colis_reclamation_Chrono_20240920142700.csv";
-    await sftp.get(remoteFilePath, localFilePath);
-    console.log("Fichier téléchargé dans le répertoire dossierReclamation");
-
-    // Supprimer le fichier local après transfert
-    fs.unlinkSync(localFilePath); // Correction de la variable utilisée
-    console.log(`Fichier local supprimé: ${localFilePath}`);
-
-    await sftp.end();
-  } catch (err) {
-    console.error("SFTP error:", err);
-  }
-}
 
 async function uploadToSftp(finalDownloadPath) {
   const config = {
@@ -98,4 +72,4 @@ async function uploadToSftp(finalDownloadPath) {
   }
 }
 
-module.exports = { getFileFromSFTP, checkForNewReclamations, uploadToSftp };
+module.exports = {  checkForNewReclamations, uploadToSftp };

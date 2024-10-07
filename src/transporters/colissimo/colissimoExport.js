@@ -1,31 +1,14 @@
 const puppeteer = require('puppeteer');
+const colissimoLogin = require('../../utils/colissimoLogin');
 const { checkForNewReclamations, uploadToSftp } = require('../../sftp/sftpClientColissimo');
 const fs = require('fs');
 const path = require('path');
-
-function delay(time) {
-  return new Promise(function (resolve) {
-    setTimeout(resolve, time)
-  });
-}
-
-function getFormattedDate() {
-  const date = new Date();
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, '0');
-  const day = String(date.getDate()).padStart(2, '0');
-  const hours = String(date.getHours()).padStart(2, '0');
-  const minutes = String(date.getMinutes()).padStart(2, '0');
-  const seconds = String(date.getSeconds()).padStart(2, '0');
-  return `${year}-${month}-${day}_${hours}-${minutes}-${seconds}`;
-}
+const { delay, getFormattedDate } = require('../../utils/utils');
 
 
 async function loginColissimoForFile(filePath, fileName) {
   const hasNewReclamations = await checkForNewReclamations();
   if (hasNewReclamations) {
-    const browser = await puppeteer.launch({ headless: false });
-    const page = await browser.newPage();
     const tempDownloadPath = path.resolve(__dirname, "temp_download");
 
     try {
@@ -41,62 +24,8 @@ async function loginColissimoForFile(filePath, fileName) {
         downloadPath: tempDownloadPath,
       });
 
-      // Lancer la page 
-      await page.goto('https://www.colissimo.entreprise.laposte.fr/', { waitUntil: 'networkidle2' });
-
-      // Étape 1 : Cliquer sur "Tout accepter" (cookies)
-      await page.waitForSelector('.agree-button.eu-cookie-compliance-default-button', { visible: true, timeout: 60000 });
-      await page.click('.agree-button.eu-cookie-compliance-default-button');  // Cliquer sur "Tout accepter"
-
-      await delay(1000);
-      // Étape 2 : Cliquer sur "Passer"
-      await page.waitForSelector('.button.button--primary.shepherd-button', { visible: true, timeout: 60000 });
-      await page.click('.button.button--primary.shepherd-button');  // Cliquer sur "Passer"
-
-      // Étape 3 : Se connecter
-      await page.waitForSelector('.ci-compte', { visible: true, timeout: 60000 });
-      await page.click('.ci-compte');  // Cliquer sur le bouton "Se connecter"
-
-      // Étape 4 : Entrer les identifiants
-      await page.waitForSelector('#edit-login', { visible: true, timeout: 60000 });
-
-      // Faire défiler jusqu'à l'élément si nécessaire
-      await page.evaluate(() => {
-        document.querySelector('#edit-login').scrollIntoView();
-      });
-
-      await page.click('#edit-login');  // Donner le focus au champ identifiant
-      await page.type('#edit-login', 'FRENCHLOG', { delay: 100 });  // Entrer l'identifiant avec délai
-
-      // Délai manuel de 500ms
-      await delay(500);
-
-      await page.waitForSelector('#edit-pass', { visible: true, timeout: 60000 });
-
-      // Faire défiler jusqu'au champ mot de passe si nécessaire
-      await page.evaluate(() => {
-        document.querySelector('#edit-pass').scrollIntoView();
-      });
-
-      await page.click('#edit-pass');  // Donner le focus au champ mot de passe
-      await page.type('#edit-pass', 'FrenchloG11!', { delay: 100 });  // Entrer le mot de passe
-
-      // Étape 5 : Cliquer sur "Confirmer"
-      await page.waitForSelector('#edit-connect', { visible: true, timeout: 60000 });
-
-      // Faire défiler jusqu'au bouton de connexion et forcer le clic
-      await page.evaluate(() => {
-        document.querySelector('#edit-connect').scrollIntoView();
-      });
-
-      await page.click('#edit-connect');
-
-      // Vérifier si la connexion a réussi
-      await page.waitForSelector('a[href="/mon-compte"]', { timeout: 60000 });
-
-      const loggedIn = await page.$('a[href="/mon-compte"]');
-      if (loggedIn) {
-        console.log('Connexion réussie !');
+      
+      const { browser, page } = await colissimoLogin();
 
         await delay(3000);
 
@@ -229,15 +158,15 @@ async function loginColissimoForFile(filePath, fileName) {
         } else {
           console.log('Aucun fichier téléchargé trouvé.');
         }
-      }
+      
     } catch (error) {
       console.error(`Erreur lors de la tentative de connexion pour ${fileName}:`, error);  // Utilisation correcte de fileName
     } finally {
       await browser.close();
     }
   }
-}
 
+}
 async function loginColissimo() {
   const newReclamations = await checkForNewReclamations();
   if (newReclamations.length > 0) {
