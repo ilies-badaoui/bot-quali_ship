@@ -1,3 +1,648 @@
 2024-09-27 11:55:36 [error]: Erreur lors du lancement des opérations : automateChronopostExport is not a function
 2024-09-27 11:59:22 [error]: Erreur lors du lancement des opérations : automateChronopostExport is not a function
 2024-09-27 12:05:55 [error]: Erreur lors du lancement des opérations : automateChronopostExport is not defined
+2024-09-30 16:53:37 [error]: Erreur lors de l'exécution du bot : Navigating frame was detached
+2024-09-30 16:55:13 [error]: Erreur lors de l'exécution du bot : uploadToSftp is not a function
+2024-10-01 09:38:37 [error]: Erreur lors de l'exécution du bot : Navigating frame was detached
+2024-10-01 09:39:25 [error]: Erreur lors de l'exécution du bot : Waiting for selector `a.btn.btn-rectangle` failed: Protocol error (Runtime.callFunctionOn): Target closed
+2024-10-01 09:39:45 [error]: Erreur lors de l'exécution du bot : Waiting for selector `a.btn.btn-rectangle` failed: Protocol error (Runtime.callFunctionOn): Target closed
+2024-10-01 09:43:31 [error]: Erreur lors de l'exécution du bot : Navigating frame was detached
+2024-10-01 11:12:46 [error]: Erreur lors de l'exécution du bot : Execution context was destroyed
+2024-10-01 14:56:48 [error]: Erreur lors de l'exécution du bot : document is not defined
+2024-10-01 14:58:42 [error]: Erreur lors de l'exécution du bot : document is not defined
+2024-10-01 16:11:43 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-01 16:15:01 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-01 16:17:19 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-01 16:25:48 [error]: Erreur lors de la vérification du statut de remboursement : Cannot read properties of undefined (reading 'waitForSelector')
+2024-10-01 16:33:36 [error]: Erreur lors de la vérification du statut de remboursement : Cannot read properties of undefined (reading 'waitForSelector')
+2024-10-01 16:41:32 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-01 16:43:15 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-02 10:00:53 [error]: Erreur lors de l'exécution du bot : Cannot read properties of undefined (reading 'join')
+2024-10-02 10:44:08 [error]: Erreur lors de l'exécution du bot : Cannot read properties of undefined (reading 'join')
+2024-10-02 10:47:09 [error]: Erreur lors de l'exécution du bot : Cannot read properties of undefined (reading 'join')
+2024-10-02 10:50:20 [error]: Erreur lors de la création du fichier CSV : Parser is not defined
+2024-10-02 10:50:20 [error]: Erreur lors de l'exécution du bot : outputCSVPath is not defined
+2024-10-02 10:55:40 [error]: Erreur lors de la création du fichier CSV : Parser is not defined
+2024-10-02 11:03:07 [error]: Erreur lors de l'exécution du bot : Cannot read properties of undefined (reading 'join')
+2024-10-02 11:10:02 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-02 11:20:21 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-02 11:26:54 [error]: Erreur lors de la création du fichier CSV : Parser is not defined
+2024-10-02 11:26:54 [error]: Erreur lors de l'exécution du bot : outputCSVPath is not defined
+2024-10-02 11:38:12 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#tab3 > div > div.ticket-infos > ul > li:nth-child(1) > span` failed: Waiting failed: 10000ms exceeded
+2024-10-02 11:41:02 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#tab12 > div > div.ticket-infos > ul > li:nth-child(1) > span` failed: Waiting failed: 10000ms exceeded
+2024-10-02 11:43:10 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#tab12 > div > div.ticket-infos > ul > li:nth-child(1) > span` failed: Waiting failed: 10000ms exceeded
+2024-10-02 11:45:16 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#tab12 > div > div.ticket-infos > ul > li:nth-child(1) > span` failed: Waiting failed: 10000ms exceeded
+2024-10-02 13:41:04 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#tab12 > div > div.ticket-infos > ul > li:nth-child(1) > span` failed: Waiting failed: 10000ms exceeded
+2024-10-02 13:47:02 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#tab12 > div > div.ticket-infos > ul > li:nth-child(1) > span` failed: Waiting failed: 10000ms exceeded
+2024-10-02 13:54:56 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#tab12 > div > div.ticket-infos > ul > li:nth-child(1) > span` failed: Waiting failed: 10000ms exceeded
+2024-10-02 13:56:52 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#tab12 > div > div.ticket-infos > ul > li:nth-child(1) > span` failed: Waiting failed: 10000ms exceeded
+2024-10-02 14:08:43 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-02 14:11:36 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-02 14:19:31 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-02 14:21:23 [error]: Erreur lors de la création du fichier CSV : ENOENT: no such file or directory, open 'C:\Users\Tony\Documents\bot-quali_ship\bot-quali_ship\UsersTonyDocumentsot-quali_shipot-quali_shipsrc	ransporterschronopost	emp_download	ickets_info.csv'
+2024-10-02 14:23:08 [error]: Erreur lors de la création du fichier CSV : ENOENT: no such file or directory, open 'C:\Users\Tony\Documents\bot-quali_ship\bot-quali_ship\UsersTonyDocumentsot-quali_shipot-quali_shipsrc	ransporterschronopost	emp_download	ickets_info.csv'
+2024-10-02 15:48:33 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Protocol error (Runtime.callFunctionOn): Target closed
+2024-10-02 15:48:33 [error]: Erreur lors du traitement du ticket # : Protocol error (Page.getNavigationHistory): Session closed. Most likely the page has been closed.
+2024-10-02 15:48:33 [error]: Erreur lors du traitement du ticket # : Protocol error (Page.navigate): Session closed. Most likely the page has been closed.
+2024-10-02 15:48:33 [error]: Erreur lors du traitement du ticket # : Protocol error (Page.navigate): Session closed. Most likely the page has been closed.
+2024-10-02 15:48:33 [error]: Erreur lors du traitement du ticket # : Protocol error (Page.navigate): Session closed. Most likely the page has been closed.
+2024-10-02 15:48:33 [error]: Erreur lors du traitement du ticket # : Protocol error (Page.navigate): Session closed. Most likely the page has been closed.
+2024-10-02 15:49:11 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Protocol error (Runtime.callFunctionOn): Target closed
+2024-10-02 15:49:11 [error]: Erreur lors du traitement du ticket # : Protocol error (Page.getNavigationHistory): Session closed. Most likely the page has been closed.
+2024-10-02 15:49:11 [error]: Erreur lors du traitement du ticket # : Protocol error (Page.navigate): Session closed. Most likely the page has been closed.
+2024-10-02 15:49:11 [error]: Erreur lors du traitement du ticket # : Protocol error (Page.navigate): Session closed. Most likely the page has been closed.
+2024-10-02 15:49:11 [error]: Erreur lors du traitement du ticket # : Protocol error (Page.navigate): Session closed. Most likely the page has been closed.
+2024-10-02 15:49:11 [error]: Erreur lors du traitement du ticket # : Protocol error (Page.navigate): Session closed. Most likely the page has been closed.
+2024-10-02 16:00:29 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#` failed: Waiting failed: 30000ms exceeded
+2024-10-02 16:03:39 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#` failed: Waiting failed: 30000ms exceeded
+2024-10-02 16:05:41 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#` failed: Waiting failed: 30000ms exceeded
+2024-10-02 16:12:10 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-02 16:20:20 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-02 16:25:17 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-02 16:33:09 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-02 16:40:49 [error]: Erreur lors de l'exécution du bot : ticketNumber1 is not defined
+2024-10-02 16:42:00 [error]: Erreur lors de l'exécution du bot : ticketNumber1 is not defined
+2024-10-02 16:44:51 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#table1 > tbody > tr:nth-child(2) > td:nth-child(3) > a` failed: Waiting failed: 30000ms exceeded
+2024-10-02 16:55:41 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#table1 > tbody > tr:nth-child(2) > td:nth-child(3) > a` failed: Waiting failed: 30000ms exceeded
+2024-10-02 16:59:01 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#table1 > tbody > tr:nth-child(2) > td:nth-child(3) > a` failed: Waiting failed: 30000ms exceeded
+2024-10-03 08:56:19 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#table1 > tbody > tr:nth-child(2) > td:nth-child(3) > a` failed: Waiting failed: 30000ms exceeded
+2024-10-03 09:18:59 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-03 09:29:30 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-03 09:33:00 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-03 09:37:40 [error]: Erreur lors de l'exécution du bot : getRefundStatus is not defined
+2024-10-03 09:43:46 [error]: Erreur lors de l'exécution du bot : csvData is not defined
+2024-10-03 09:53:36 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 30000 ms exceeded
+2024-10-03 10:09:07 [error]: Erreur lors de l'exécution du bot : Navigation timeout of 60000 ms exceeded
+2024-10-03 10:13:06 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 10:13:25 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-03 10:14:26 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 10:14:45 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-03 10:15:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 10:16:56 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 10:18:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:07:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:07:53 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-03 15:08:53 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:09:12 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-03 15:10:12 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:11:23 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:11:38 [error]: Erreur lors du retour au tableau de synthèse : Navigating frame was detached
+2024-10-03 15:11:38 [error]: Erreur lors de l'exécution du bot : Attempted to use detached Frame '6C185156C05DBA8CD58F96B731F9D140'.
+2024-10-03 15:18:00 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:18:19 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-03 15:19:19 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:19:38 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-03 15:20:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:21:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:23:01 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:51:05 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:52:24 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:53:44 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:54:55 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:56:06 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-03 15:59:35 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:00:04 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:00:32 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:00:53 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:01:14 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:12:19 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:12:37 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-03 16:12:42 [error]: Erreur lors de la vérification du statut de remboursement avec le sélecteur alternatif : Waiting for selector `#form9 > div.comment-top > div:nth-child(1) > p:nth-child(2) > span > span` failed: Waiting failed: 5000ms exceeded
+2024-10-03 16:12:52 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:13:10 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-03 16:13:15 [error]: Erreur lors de la vérification du statut de remboursement avec le sélecteur alternatif : Waiting for selector `#form9 > div.comment-top > div:nth-child(1) > p:nth-child(2) > span > span` failed: Waiting failed: 5000ms exceeded
+2024-10-03 16:13:25 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:13:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:14:05 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:23:28 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 10000 ms exceeded
+2024-10-03 16:23:46 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-03 16:23:46 [error]: Erreur lors de l'exécution du bot : getShipmentNumbers is not defined
+2024-10-03 16:30:33 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-03 16:30:51 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-03 16:30:51 [error]: Erreur lors de l'exécution du bot : getShipmentNumbers is not defined
+2024-10-04 09:04:43 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 09:05:01 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-04 09:05:01 [error]: Erreur lors de l'exécution du bot : getShipmentNumbers is not defined
+2024-10-04 10:17:00 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 10:17:18 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-04 10:17:18 [error]: Erreur lors de l'exécution du bot : getShipmentNumbers is not defined
+2024-10-04 10:37:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 10:38:03 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-04 10:38:10 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab12 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-04 10:38:30 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 10:38:48 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-04 10:38:55 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab12 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-04 10:39:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 10:39:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 10:40:16 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 11:26:04 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 11:26:22 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-04 11:26:29 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-04 11:26:49 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 11:27:07 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-04 11:27:14 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-04 11:27:35 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 11:28:05 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 11:28:35 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 11:52:42 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 11:53:00 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-04 11:53:07 [error]: Erreur lors de l'extraction des numéros d'envoi via le sélecteur alternatif : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-04 11:53:14 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-04 11:53:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 11:53:52 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-04 11:53:59 [error]: Erreur lors de l'extraction des numéros d'envoi via le sélecteur alternatif : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-04 11:54:06 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-04 11:54:26 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 11:54:57 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 11:55:27 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 12:30:52 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-04 12:31:12 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 12:31:27 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-04 12:31:47 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 12:32:02 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-04 12:32:23 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 12:32:38 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-04 12:32:58 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-04 12:33:13 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-04 12:33:33 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:17:08 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:17:28 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:17:43 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:18:03 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:18:18 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:18:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:18:53 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:19:14 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:19:29 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:19:49 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:27:39 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:27:59 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:28:14 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:28:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:28:50 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:29:10 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:29:25 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:29:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:30:00 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:30:20 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:37:58 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:38:13 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:38:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:38:49 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:39:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:39:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:39:59 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:43:46 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.lg-hidden.sm-table-cell` failed: Waiting failed: 10000ms exceeded
+2024-10-07 09:51:19 [error]: Erreur lors de l'extraction des numéros d'envoi : selector is not defined
+2024-10-07 09:51:39 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:51:44 [error]: Erreur lors de l'extraction des numéros d'envoi : selector is not defined
+2024-10-07 09:52:04 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:52:09 [error]: Erreur lors de l'extraction des numéros d'envoi : selector is not defined
+2024-10-07 09:52:29 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:52:34 [error]: Erreur lors de l'extraction des numéros d'envoi : selector is not defined
+2024-10-07 09:52:54 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 09:53:00 [error]: Erreur lors de l'extraction des numéros d'envoi : selector is not defined
+2024-10-07 09:53:20 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 10:51:26 [error]: Erreur lors de l'extraction des numéros d'envoi : selector is not defined
+2024-10-07 10:51:47 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 10:52:02 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 10:52:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 10:52:37 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 10:52:57 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 10:53:02 [error]: Erreur lors de l'extraction des numéros d'envoi : selector is not defined
+2024-10-07 10:53:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 10:53:27 [error]: Erreur lors de l'extraction des numéros d'envoi : selector is not defined
+2024-10-07 10:53:47 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 10:57:21 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 10:57:36 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 10:57:43 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-07 10:58:03 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 10:58:18 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 10:58:25 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab9 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-07 10:58:46 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 10:59:13 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 10:59:40 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 11:11:01 [error]: Erreur lors de l'exécution du bot : Cannot destructure property 'refundStatus' of '(intermediate value)' as it is undefined.
+2024-10-07 11:33:21 [error]: Erreur lors de l'exécution du bot : Cannot destructure property 'refundStatus' of '(intermediate value)' as it is undefined.
+2024-10-07 11:45:45 [error]: Erreur lors de l'exécution du bot : Cannot destructure property 'refundStatus' of '(intermediate value)' as it is undefined.
+2024-10-07 13:42:29 [error]: Erreur lors de l'exécution du bot : Cannot destructure property 'refundStatus' of '(intermediate value)' as it is undefined.
+2024-10-07 13:46:26 [error]: Erreur lors de l'exécution du bot : Cannot destructure property 'refundStatus' of '(intermediate value)' as it is undefined.
+2024-10-07 13:50:58 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 13:51:13 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 13:51:33 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 13:51:49 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 13:52:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 13:52:36 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 13:53:03 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:02:51 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:03:06 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:03:26 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:03:41 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:04:01 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:04:28 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:04:56 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:09:26 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:09:41 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:11:46 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:12:12 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:12:32 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:12:57 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:13:17 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:13:54 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:14:31 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:31:38 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#tab6 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:31:58 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:32:23 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#tab6 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:32:43 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:34:03 [error]: Erreur lors de la vérification du statut de remboursement : Cannot access 'hoverSelector' before initialization
+2024-10-07 14:34:23 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:34:38 [error]: Erreur lors de la vérification du statut de remboursement : Cannot access 'hoverSelector' before initialization
+2024-10-07 14:34:58 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:35:14 [error]: Erreur lors de la vérification du statut de remboursement : Cannot access 'hoverSelector' before initialization
+2024-10-07 14:35:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:35:49 [error]: Erreur lors de la vérification du statut de remboursement : Cannot access 'hoverSelector' before initialization
+2024-10-07 14:36:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:36:24 [error]: Erreur lors de la vérification du statut de remboursement : Cannot access 'hoverSelector' before initialization
+2024-10-07 14:36:44 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:45:40 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:45:55 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:46:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:46:30 [error]: Erreur lors de la vérification du statut de remboursement : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:46:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:52:40 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:52:55 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:53:02 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab6 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-07 14:53:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:53:37 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 14:53:44 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab6 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Waiting failed: 7000ms exceeded
+2024-10-07 14:54:04 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:54:31 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 14:54:59 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:19:02 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:19:17 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 15:22:27 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab6 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Runtime.callFunctionOn timed out. Increase the 'protocolTimeout' setting in launch/connect calls for a higher timeout if needed.
+2024-10-07 15:22:47 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:23:02 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 15:26:12 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `#tab6 > div > div.ticket-infos > ul > li.package-number-info > span > a` failed: Runtime.callFunctionOn timed out. Increase the 'protocolTimeout' setting in launch/connect calls for a higher timeout if needed.
+2024-10-07 15:26:33 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:27:00 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:28:12 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:28:27 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 15:29:07 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `a.package-number-info` failed: Waiting failed: 30000ms exceeded
+2024-10-07 15:30:12 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:30:28 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 15:30:51 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `a.package-number-info` failed: Protocol error (Runtime.callFunctionOn): Target closed
+2024-10-07 15:30:51 [error]: Erreur lors du retour au tableau de synthèse : Execution context was destroyed
+2024-10-07 15:30:51 [error]: Erreur lors de l'exécution du bot : Attempted to use detached Frame '024EC8BD567BC49473E9A8BCA5673F0E'.
+2024-10-07 15:32:04 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:32:19 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 15:32:19 [error]: Erreur lors de l'extraction des numéros d'envoi : document is not defined
+2024-10-07 15:32:39 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:32:54 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 15:32:54 [error]: Erreur lors de l'extraction des numéros d'envoi : document is not defined
+2024-10-07 15:33:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:33:42 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:34:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:35:12 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 20000 ms exceeded
+2024-10-07 15:35:27 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 10000ms exceeded
+2024-10-07 15:36:07 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `a.package-number-info` failed: Waiting failed: 30000ms exceeded
+2024-10-07 15:44:18 [error]: Erreur lors de la vérification du statut de remboursement avec hover : delay is not defined
+2024-10-07 15:44:18 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:44:27 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:44:37 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 5000ms exceeded
+2024-10-07 15:44:37 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:44:46 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:44:56 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 5000ms exceeded
+2024-10-07 15:44:56 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:45:05 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:45:10 [error]: Erreur lors de la vérification du statut de remboursement avec hover : delay is not defined
+2024-10-07 15:45:10 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:45:20 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:45:25 [error]: Erreur lors de la vérification du statut de remboursement avec hover : delay is not defined
+2024-10-07 15:45:25 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:45:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:47:37 [error]: Erreur lors de la vérification du statut de remboursement avec hover : delay is not defined
+2024-10-07 15:47:37 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:47:46 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:47:57 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 5000ms exceeded
+2024-10-07 15:47:57 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:48:06 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:48:16 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 5000ms exceeded
+2024-10-07 15:48:16 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:48:41 [error]: Erreur lors de la vérification du statut de remboursement avec hover : delay is not defined
+2024-10-07 15:48:41 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:48:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:49:03 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 8000ms exceeded
+2024-10-07 15:49:03 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:49:12 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:49:25 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 8000ms exceeded
+2024-10-07 15:49:25 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:49:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:49:40 [error]: Erreur lors de la vérification du statut de remboursement avec hover : delay is not defined
+2024-10-07 15:49:40 [error]: Erreur lors de l'extraction des numéros d'envoi : delay is not defined
+2024-10-07 15:49:48 [error]: Erreur lors du retour au tableau de synthèse : Navigating frame was detached
+2024-10-07 15:49:48 [error]: Erreur lors de l'exécution du bot : Attempted to use detached Frame '3FC5D51007FA173C876F90B9DD2C5496'.
+2024-10-07 15:50:26 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:50:36 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 5000ms exceeded
+2024-10-07 15:50:54 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `a.package-number-info` failed: Waiting failed: 10000ms exceeded
+2024-10-07 15:51:03 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:51:14 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 5000ms exceeded
+2024-10-07 15:51:32 [error]: Erreur lors de l'extraction des numéros d'envoi : Waiting for selector `a.package-number-info` failed: Waiting failed: 10000ms exceeded
+2024-10-07 15:51:41 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:51:57 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 15:52:13 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:24:39 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:24:49 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 5000ms exceeded
+2024-10-07 16:24:58 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:25:08 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 5000ms exceeded
+2024-10-07 16:25:17 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:25:33 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:25:49 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:25:49 [error]: Erreur lors de l'exécution du bot : generateCSV is not defined
+2024-10-07 16:40:13 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:40:26 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 8000ms exceeded
+2024-10-07 16:40:35 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:40:49 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 8000ms exceeded
+2024-10-07 16:40:58 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:41:17 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:41:36 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:41:36 [error]: Erreur lors de l'exécution du bot : generateCSV is not defined
+2024-10-07 16:47:11 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:47:31 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 15000ms exceeded
+2024-10-07 16:47:40 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:48:00 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 15000ms exceeded
+2024-10-07 16:48:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:48:29 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:48:48 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:48:48 [error]: Erreur lors de l'exécution du bot : generateCSV is not defined
+2024-10-07 16:53:27 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form13 > div.comment-top > div:nth-child(1) > div > p > span.lg-hidden.sm-table-cell` failed: Waiting failed: 15000ms exceeded
+2024-10-07 16:53:36 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:53:56 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form13 > div.comment-top > div:nth-child(1) > div > p > span.lg-hidden.sm-table-cell` failed: Waiting failed: 15000ms exceeded
+2024-10-07 16:54:06 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:54:26 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form13 > div.comment-top > div:nth-child(1) > div > p > span.lg-hidden.sm-table-cell` failed: Waiting failed: 15000ms exceeded
+2024-10-07 16:54:35 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:54:55 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form13 > div.comment-top > div:nth-child(1) > div > p > span.lg-hidden.sm-table-cell` failed: Waiting failed: 15000ms exceeded
+2024-10-07 16:55:04 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:55:24 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form13 > div.comment-top > div:nth-child(1) > div > p > span.lg-hidden.sm-table-cell` failed: Waiting failed: 15000ms exceeded
+2024-10-07 16:55:33 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-07 16:55:33 [error]: Erreur lors de l'exécution du bot : generateCSV is not defined
+2024-10-08 08:51:16 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form13 > div.comment-top > div:nth-child(1) > div > p > span.lg-hidden.sm-table-cell` failed: Waiting failed: 15000ms exceeded
+2024-10-08 08:51:25 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 08:51:45 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form13 > div.comment-top > div:nth-child(1) > div > p > span.lg-hidden.sm-table-cell` failed: Waiting failed: 15000ms exceeded
+2024-10-08 08:51:52 [error]: Erreur lors du retour au tableau de synthèse : Navigating frame was detached
+2024-10-08 08:51:52 [error]: Erreur lors de l'exécution du bot : Attempted to use detached Frame '58DB1AC0D8BAA86E0CA65088969001D3'.
+2024-10-08 08:56:17 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 08:56:37 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 15000ms exceeded
+2024-10-08 08:56:46 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 08:57:06 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 15000ms exceeded
+2024-10-08 08:57:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 08:57:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 08:57:54 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 08:57:54 [error]: Erreur lors de l'exécution du bot : generateCSV is not defined
+2024-10-08 09:01:14 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 09:01:34 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 15000ms exceeded
+2024-10-08 09:01:43 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 09:02:04 [error]: Erreur lors de la vérification du statut de remboursement avec hover : Waiting for selector `#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span` failed: Waiting failed: 15000ms exceeded
+2024-10-08 09:02:13 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 09:02:32 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 09:02:51 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 09:02:51 [error]: Erreur lors de l'exécution du bot : generateCSV is not defined
+2024-10-08 09:42:02 [error]: Erreur lors de l'exécution du bot : Cannot access 'getRefundStatus' before initialization
+2024-10-08 09:43:05 [error]: Erreur lors de l'exécution du bot : Cannot access 'getRefundStatus' before initialization
+2024-10-08 09:44:21 [error]: Erreur lors du survol pour afficher les statuts : delay is not defined
+2024-10-08 09:44:21 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 09:46:39 [error]: Erreur lors du survol pour afficher les statuts : delay is not defined
+2024-10-08 09:46:39 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 09:49:25 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 10:40:38 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 10:46:12 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 10:53:01 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 10:54:14 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 10:55:32 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 10:56:55 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 11:00:00 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 11:02:59 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 11:06:47 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 11:11:33 [error]: Erreur lors de l'exécution du bot : shipmentNumbers is not defined
+2024-10-08 11:17:30 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:17:47 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:18:04 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:18:27 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:18:49 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:24:52 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:25:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:25:26 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:25:48 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:26:10 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:28:31 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:28:48 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:29:05 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:29:27 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:29:49 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:33:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:34:02 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:34:20 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:34:42 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:35:04 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:37:26 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:37:43 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:38:00 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:38:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:38:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 9000 ms exceeded
+2024-10-08 11:42:47 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 11:43:03 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 11:43:19 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 11:43:40 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 11:44:02 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 11:46:51 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 11:47:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 11:47:23 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 11:47:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 11:48:06 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:13:09 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:13:17 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:13:26 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:13:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:13:42 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:13:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:13:58 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:14:06 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:14:14 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:14:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:22:36 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:22:44 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:24:03 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:24:11 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:24:19 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:24:27 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:24:35 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:24:43 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:24:51 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:24:59 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:25:07 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:25:16 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:29:41 [error]: Erreur lors de l'exécution du bot : Cannot destructure property 'refundStatus' of '(intermediate value)' as it is undefined.
+2024-10-08 14:41:56 [error]: Erreur lors de la vérification du statut de remboursement : page.waitForTimeout is not a function
+2024-10-08 14:43:18 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:43:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:43:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:44:12 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:44:33 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:46:24 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:46:40 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:46:56 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:47:17 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:47:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:51:53 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:52:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:52:25 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:52:46 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 14:53:08 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 15:05:43 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 15:05:59 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 15:06:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 15:06:36 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 15:06:57 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 8000 ms exceeded
+2024-10-08 15:21:52 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:22:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:22:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:23:06 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:23:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:33:59 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:34:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:34:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:35:13 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:35:42 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:38:28 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:38:51 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:39:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:39:43 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:40:11 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:45:44 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:46:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:46:30 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:46:58 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 15:47:27 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:01:56 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:02:19 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:02:42 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:03:10 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:03:39 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:09:11 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:09:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:09:58 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:10:26 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:10:54 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:29:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:29:16 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#table1 > tbody > tr:nth-child(2) > td:nth-child(3) > a` failed: Protocol error (Runtime.callFunctionOn): Target closed
+2024-10-08 16:31:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-08 16:31:39 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#table1 > tbody > tr:nth-child(2) > td:nth-child(3) > a` failed: Waiting failed: 30000ms exceeded
+2024-10-09 09:10:46 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 09:11:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 09:11:33 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 09:12:01 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 09:12:30 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 09:33:41 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 09:34:05 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 09:40:41 [error]: Erreur lors de l'exécution du bot : getShipmentNumbers is not a function
+2024-10-09 10:10:14 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:10:37 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:11:54 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:11:55 [error]: Erreur lors de l'exécution du bot : Waiting for selector `#table1 > tbody > tr:nth-child(2) > td:nth-child(3) > a` failed: Protocol error (Runtime.callFunctionOn): Target closed
+2024-10-09 10:14:05 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:14:28 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:14:51 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:15:19 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:15:48 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:57:55 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:58:18 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:58:42 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:59:10 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 10:59:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:12:40 [error]: Erreur lors de l'exécution du bot : getRefundStatus is not a function
+2024-10-09 11:14:13 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:14:37 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:15:00 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:15:28 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:15:56 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:24:55 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:25:18 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:25:41 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:26:10 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:26:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 11:59:52 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 12:00:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 12:00:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 12:01:06 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 12:01:35 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:08:36 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:09:00 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:09:23 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:09:51 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:10:19 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:25:41 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:26:04 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:26:27 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:26:56 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:27:24 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:33:37 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:34:00 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:34:23 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:34:51 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:35:20 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:47:25 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:47:48 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:48:11 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:48:40 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:49:08 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:54:32 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:54:55 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:55:18 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:55:47 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 14:56:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:04:30 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:05:59 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:06:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:06:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:07:13 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:07:42 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:12:52 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:13:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:13:39 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:14:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:14:35 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:17:25 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:17:48 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:18:11 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:18:40 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:19:03 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:20:48 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:21:11 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:21:34 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:22:03 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:22:31 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:27:45 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:28:08 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:28:31 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:29:00 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:29:28 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:45:24 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:45:47 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:46:10 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:46:39 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 15:47:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:06:52 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:07:15 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:07:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:08:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:08:35 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:18:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:19:01 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:19:24 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:19:52 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:20:20 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:35:53 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:36:16 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:36:39 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:37:08 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-09 16:37:36 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded

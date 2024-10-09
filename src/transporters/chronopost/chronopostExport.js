@@ -2,8 +2,9 @@ const puppeteer = require("puppeteer");
 const { checkForNewReclamations } = require("../../sftp/sftpClientChronopost");
 const fs = require("fs");
 const path = require("path");
+const { loginChronopost } = require("../../utils/chronopostLogin");
 
-function delay(time) {
+async function delay(time) {
   return new Promise(function (resolve) {
     setTimeout(resolve, time);
   });
@@ -16,54 +17,7 @@ async function loginChronopostExport() {
     const page = await browser.newPage();
 
     try {
-      await page.goto("https://www.chronopost.fr/fr/authentification", {
-        waitUntil: "networkidle2", // Attendre que la page soit complètement chargée
-      });
-
-      // Cliquer sur "Tout accepter" (cookies)
-      await page.waitForSelector("a.btn.btn-rectangle", {
-        visible: true,
-        timeout: 60000, // Timeout après 60 secondes si l'élément n'apparaît pas
-      });
-      await page.click("a.btn.btn-rectangle"); // Cliquer sur "Tout accepter"
-
-      // Attendre que le champ identifiant soit disponible
-      await page.waitForSelector(
-        "div.iv4-login-form:nth-child(3) > span:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)"
-      );
-
-      // Remplir le champ identifiant
-      await page.type(
-        "div.iv4-login-form:nth-child(3) > span:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)",
-        "stephane@frenchlog.com"
-      );
-
-      // Attendre que le champ mot de passe soit disponible
-      await page.waitForSelector(
-        "div.iv4-login-form:nth-child(3) > span:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > input:nth-child(1)"
-      );
-
-      // Remplir le champ mot de passe
-      await page.type(
-        "div.iv4-login-form:nth-child(3) > span:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > input:nth-child(1)",
-        "chronopost"
-      );
-
-      // Attendre que le bouton de connexion soit visible et cliquable
-      await page.waitForSelector(
-        "#ch-first-col > div > div.ch-content-base > div > div > div.ch-wysiwyg > div > div > div > div > span > div > div > button",
-        { visible: true }
-      );
-
-      // Cliquer sur le bouton de connexion
-      await page.click(
-        "#ch-first-col > div > div.ch-content-base > div > div > div.ch-wysiwyg > div > div > div > div > span > div > div > button"
-      );
-
-      console.log("Connexion réussie !");
-
-      // Attendre que la connexion soit terminée
-      await page.waitForNavigation();
+      await loginChronopost(page);
 
       // Aller sur la page d'import
       await page.goto(

@@ -1,12 +1,11 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
-const { uploadToSftp } = require("../../sftp/sftpClient");
+const { uploadToSftp } = require("../../sftp/sftpClientChronopost");
+const { loginChronopost } = require("../../utils/chronopostLogin");
 
 async function delay(time) {
-  return new Promise(function (resolve) {
-    setTimeout(resolve, time);
-  });
+  return new Promise((resolve) => setTimeout(resolve, time));
 }
 
 async function loginChronopostImport() {
@@ -27,30 +26,8 @@ async function loginChronopostImport() {
       downloadPath: tempDownloadPath,
     });
 
-    // Aller sur la page de Chronopost et se connecter
-    await page.goto("https://www.chronopost.fr/fr/authentification", {
-      waitUntil: "networkidle2",
-    });
-
-    await page.waitForSelector("a.btn.btn-rectangle", {
-      visible: true,
-      timeout: 60000,
-    });
-    await page.click("a.btn.btn-rectangle");
-
-    await page.type(
-      "div.iv4-login-form:nth-child(3) > span:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)",
-      "stephane@frenchlog.com"
-    );
-    await page.type(
-      "div.iv4-login-form:nth-child(3) > span:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > input:nth-child(1)",
-      "chronopost"
-    );
-    await page.click(
-      "#ch-first-col > div > div.ch-content-base > div > div > div.ch-wysiwyg > div > div > div > div > span > div > div > button"
-    );
-
-    await page.waitForNavigation();
+    // Utiliser la fonction de connexion
+    await loginChronopost(page);
 
     // Accéder au tableau de synthèse
     await page.goto(
@@ -119,7 +96,7 @@ async function loginChronopostImport() {
   } catch (error) {
     console.error("Erreur lors de l'exécution du bot:", error);
   } finally {
-    await delay(10000);
+    await delay(5000);
     await browser.close();
   }
 }
