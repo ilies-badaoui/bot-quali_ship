@@ -6144,3 +6144,30 @@
 2024-10-10 13:45:20 [info]: Bot terminé.
 2024-10-10 13:45:20 [info]: Vérification des tickets de Chronopost terminé avec succès.
 2024-10-10 13:45:20 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 14:16:13 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 14:16:13 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 14:16:14 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 14:16:14 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 14:16:16 [info]: Tentative de connexion à Chronopost...
+2024-10-10 14:16:18 [info]: Connexion réussie.
+2024-10-10 14:16:18 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 14:16:20 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 14:16:21 [info]: Toutes les réclamations affichées.
+2024-10-10 14:16:21 [info]: Clique sur le ticket : 60423504
+2024-10-10 14:16:34 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 14:16:34 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 14:16:40 [info]: Clique sur le ticket : 60423560
+2024-10-10 14:16:48 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 14:16:53 [info]: Clique sur le ticket : 60602494
+2024-10-10 14:17:01 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093465344FR","status":"0"}]
+2024-10-10 14:17:06 [info]: Clique sur le ticket : 60602523
+2024-10-10 14:17:19 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 14:17:19 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 14:17:25 [info]: Clique sur le ticket : 60602551
+2024-10-10 14:17:38 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 14:17:38 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 14:17:43 [info]: Fichier CSV généré avec succès.
+2024-10-10 14:17:44 [info]: Fermeture du navigateur...
+2024-10-10 14:17:50 [info]: Bot terminé.
+2024-10-10 14:17:50 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 14:17:50 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).

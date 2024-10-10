@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const { uploadToSftp } = require("../../sftp/sftpClientChronopost");
 const logger = require("../../utils/logger");
-const { loginChronopost } = require("../../utils/chronopostLogin");
+const { loginChronopost } = require("../../utils/connexion/chronopostLogin");
 const {
   extractMultipleShipmentNumbers,
   extractSingleShipmentNumber,

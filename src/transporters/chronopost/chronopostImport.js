@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 const { uploadToSftp } = require("../../sftp/sftpClientChronopost");
-const { loginChronopost } = require("../../utils/chronopostLogin");
+const { loginChronopost } = require("../../utils/connexion/chronopostLogin");
 
 async function delay(time) {
   return new Promise((resolve) => setTimeout(resolve, time));

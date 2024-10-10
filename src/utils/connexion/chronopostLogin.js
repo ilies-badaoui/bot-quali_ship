@@ -1,5 +1,5 @@
 // chronopostLogin.js
-const logger = require("../utils/logger");
+const logger = require("../logger");
 
 // Fonction de connexion à Chronopost
 async function loginChronopost(page) {
