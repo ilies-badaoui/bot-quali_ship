@@ -4,10 +4,10 @@ const { delay } = require('../../utils/utils');
 
 
 async function loginAndNavigateToClaims() {
-    let browser;
-    try {
-        const { browser: browserInstance, page } = await colissimoLogin();
-        browser = browserInstance;
+        let browser;
+        try {
+            const { browser: browserInstance, page } = await colissimoLogin();
+            browser = browserInstance;
 
         await delay(3000);
 
@@ -161,6 +161,7 @@ async function loginAndNavigateToClaims() {
         await delay(60000);
     } catch (error) {
         console.error(`Erreur lors de la tentative de connexion:`, error);
+        throw error;
     } finally {
         if (browser) {
             console.log('Fermeture du navigateur...');
