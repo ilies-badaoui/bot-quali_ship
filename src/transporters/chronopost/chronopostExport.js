@@ -52,7 +52,7 @@ async function loginChronopostExport() {
     } catch (error) {
       console.error("Erreur lors de l'exécution du bot:", error);
     } finally {
-      await delay(10000).then(() => {
+      await delay(5000).then(() => {
         browser.close();
       });
     }

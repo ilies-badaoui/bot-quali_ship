@@ -24,7 +24,7 @@ async function checkForNewReclamations() {
       // Téléchargez les nouvelles réclamations
       for (const file of newReclamations) {
         const remoteFilePath = `/test/export/chronopost/${file.name}`;
-        const localFilePath = `C:/Users/Tony/Desktop/bot-quali-ship/src/dossierReclamation/${file.name}`;
+        const localFilePath = `C:/Users/badao/Desktop/bot-quali-ship/src/dossierReclamation/${file.name}`;
         await sftp.get(remoteFilePath, localFilePath);
         console.log(`Téléchargé ${file.name} dans ${localFilePath}`);
         downloadedFiles.push(localFilePath); // Ajouter le chemin local du fichier téléchargé
@@ -42,6 +42,10 @@ async function checkForNewReclamations() {
   }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bd32ff80888c9a36b958a084cf195afa34905835
 async function uploadToSftp(finalDownloadPath) {
   const config = {
     host: "152.228.216.3",
@@ -71,4 +75,8 @@ async function uploadToSftp(finalDownloadPath) {
   }
 }
 
+<<<<<<< HEAD
 module.exports = { checkForNewReclamations, uploadToSftp };
+=======
+module.exports = {  checkForNewReclamations, uploadToSftp };
+>>>>>>> bd32ff80888c9a36b958a084cf195afa34905835
