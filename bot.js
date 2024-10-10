@@ -11,6 +11,7 @@ const colisPriveImport = require('./src/transporters/colisPrive/colisPriveImport
 const colisPriveSuivi = require('./src/transporters/colisPrive/colisPriveSuivi');
 const logger = require('./src/utils/logger');
 const { retryOperation } = require('./src/utils/retry');
+const upsExport = require('./src/transporters/ups/upsExport')
 
 async function startAutomation() {
   logger.info('Démarrage de toutes les opérations des bots...');
@@ -70,7 +71,7 @@ async function startAutomation() {
   //   logger.warn('Erreur ou absence de nouvelles réclamations lors de l\'export de GLS', error.message);
   // }
 
-  // Lancer GLS export indépendament
+  // Lancer GLS Import indépendament
   // try {
   //   logger.info('Lancement de l\'import de GLS...');
   //   await glsImport();
@@ -107,12 +108,21 @@ async function startAutomation() {
   // }
 
   // Lancer l'Suivi de colis privé indépendament
+  // try {
+  //   logger.info('Lancement du Suivi de colis privé...');
+  //   await colisPriveSuivi();
+  //   logger.info('l\'Suivi de  colis privé est terminé avec succès.');
+  // } catch (error) {
+  //   logger.warn('Erreur ou absence de nouvelles réclamations lors du Suivi de colis privé :', error.message);
+  // }
+
+  // Lancer l'export d'UPS indépendament
   try {
-    logger.info('Lancement du Suivi de colis privé...');
-    await colisPriveSuivi();
-    logger.info('l\'Suivi de  colis privé est terminé avec succès.');
+    logger.info('Lancement de l\'export d\'UPS...');
+    await upsExport();
+    logger.info('l\'Suivi d\'ups est terminé avec succès.');
   } catch (error) {
-    logger.warn('Erreur ou absence de nouvelles réclamations lors du Suivi de colis privé :', error.message);
+    logger.warn('Erreur ou absence de nouvelles réclamations lors du export d\'ups :', error.message);
   }
 
 
