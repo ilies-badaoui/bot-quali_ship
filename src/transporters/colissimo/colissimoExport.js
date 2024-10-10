@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const colissimoLogin = require('../../utils/colissimoLogin');
+const colissimoLogin = require('../../utils/connexion/colissimoLogin');
 const { checkForNewReclamations, uploadToSftp } = require('../../sftp/sftpClientColissimo');
 const fs = require('fs');
 const path = require('path');

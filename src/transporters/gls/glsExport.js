@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const glsLogin = require('../../utils/glsLogin');
+const glsLogin = require('../../utils/connexion/glsLogin');
 const { delay } = require('../../utils/utils');
 
 async function glsExport(params) {

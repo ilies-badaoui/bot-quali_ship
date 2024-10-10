@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { uploadToSftp } = require('../../sftp/sftpClientColissimo');
 const { delay } = require('../../utils/utils');
+const colissimoLogin = require('../../utils/connexion/colissimoLogin');
 
 
 async function loginColissimoImport() {

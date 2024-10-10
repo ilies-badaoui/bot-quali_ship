@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const { delay } = require('./utils');  // Si tu utilises un utilitaire de délai
+const { delay } = require('../utils');  // Si tu utilises un utilitaire de délai
 
 async function glsLogin() {
   const browser = await puppeteer.launch({

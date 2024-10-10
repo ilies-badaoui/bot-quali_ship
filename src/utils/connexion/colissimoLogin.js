@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const { delay } = require('./utils'); // Si tu as un utilitaire pour le délai
+const { delay } = require('../utils'); // Si tu as un utilitaire pour le délai
 
 async function colissimoLogin() {
   const browser = await puppeteer.launch({

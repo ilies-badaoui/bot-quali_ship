@@ -1,5 +1,5 @@
 const { getInProgressClaims } = require('../../sftp/sftpClientColissimo');
-const colissimoLogin = require('../../utils/colissimoLogin');
+const colissimoLogin = require('../../utils/connexion/colissimoLogin');
 const { delay } = require('../../utils/utils');
 
 
