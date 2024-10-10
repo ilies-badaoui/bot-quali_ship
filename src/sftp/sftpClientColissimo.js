@@ -1,6 +1,8 @@
 const path = require('path');
 const Client = require('ssh2-sftp-client');
 const sftp = new Client();
+const fs = require('fs');
+
 
 async function checkForNewReclamations() {
   try {
@@ -69,7 +71,7 @@ async function uploadToSftp(finalDownloadPath, originalExportFileName) {
 
 async function getInProgressClaims() {
   const localDownloadPath = path.join(__dirname, 'temp_inprogress');
-  const remoteDirectory = '/export/laposte/inprogress/';
+  const remoteDirectory = '/test/export/laposte/inprogress/';
 
   // Créer le répertoire local s'il n'existe pas
   if (!fs.existsSync(localDownloadPath)) {
@@ -77,7 +79,6 @@ async function getInProgressClaims() {
   }
 
   try {
-    // Se connecter au serveur SFTP
     await sftp.connect({
       host: '152.228.216.3',
       port: '22',
@@ -87,13 +88,17 @@ async function getInProgressClaims() {
 
     // Lister les fichiers dans le dossier SFTP "export/laposte/inprogress/"
     const fileList = await sftp.list(remoteDirectory);
-    
-    // Filtrer pour trouver les fichiers JSON qui commencent par "complaint_"
-    const jsonFile = fileList.find(file => file.name.startsWith("complaint_") && file.name.endsWith(".json"));
+    console.log('Liste des fichiers dans le répertoire inprogress:', fileList);
+
+    // Filtrer pour trouver les fichiers JSON valides
+    const jsonFile = fileList.find(file => {
+      const normalizedFileName = file.name.trim(); // Suppression des espaces et caractères invisibles
+      return normalizedFileName.startsWith("complaint_") && normalizedFileName.endsWith(".json");
+    });
 
     if (jsonFile) {
-      const remoteFilePath = path.join(remoteDirectory, jsonFile.name);
-      const localFilePath = path.join(localDownloadPath, jsonFile.name);
+      const remoteFilePath = `${remoteDirectory}${jsonFile.name.trim()}`; // Utilisation du nom normalisé
+      const localFilePath = path.join(localDownloadPath, jsonFile.name.trim());
 
       // Télécharger le fichier du serveur SFTP
       await sftp.get(remoteFilePath, localFilePath);
@@ -101,7 +106,7 @@ async function getInProgressClaims() {
 
       // Lire et désérialiser le fichier JSON
       const fileContent = fs.readFileSync(localFilePath, 'utf8');
-      const claims = JSON.parse(fileContent); // Désérialiser le JSON en objet
+      const claims = JSON.parse(fileContent);
       console.log('Réclamations désérialisées:', claims);
       return claims;
 
@@ -114,8 +119,9 @@ async function getInProgressClaims() {
     console.error('Erreur lors de la récupération des réclamations depuis le SFTP:', error);
     return [];
   } finally {
-    sftp.end();
+    await sftp.end();
   }
 }
+
 
 module.exports = { checkForNewReclamations, uploadToSftp, getInProgressClaims };

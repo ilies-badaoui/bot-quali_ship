@@ -3,7 +3,14 @@ const loginChronopostImport = require('./src/transporters/chronopost/chronopostI
 const loginColissimoExport = require('./src/transporters/colissimo/colissimoExport');
 const loginColissimoImport = require('./src/transporters/colissimo/colissimoImport');
 const loginAndNavigateToClaims = require('./src/transporters/colissimo/colissimoSuivi');
+const glsExport = require('./src/transporters/gls/glsExport');
+const glsImport = require('./src/transporters/gls/glsImport');
+const glsSuivi = require('./src/transporters/gls/glsSuivi');
+const colisPriveExport = require('./src/transporters/colisPrive/colisPriveExport');
+const colisPriveImport = require('./src/transporters/colisPrive/colisPriveImport');
+const colisPriveSuivi = require('./src/transporters/colisPrive/colisPriveSuivi');
 const logger = require('./src/utils/logger');
+const { retryOperation } = require('./src/utils/retry');
 
 async function startAutomation() {
   logger.info('Démarrage de toutes les opérations des bots...');
@@ -43,17 +50,73 @@ async function startAutomation() {
   // } catch (error) {
   //   logger.warn('Erreur lors de l\'import de Colissimo :', error.message);
   // }
-  
+
   // Lancer Colissimo suivi indépendamment
+  // try {
+  //   logger.info('Lancement du suivi réclamation de Colissimo...');
+  //   // Utiliser retryOperation pour lancer loginAndNavigateToClaims avec 3 tentatives maximum
+  //   await retryOperation(loginAndNavigateToClaims, 3);
+  //   logger.info('Le suivi est envoyer avec succes.');
+  // } catch (error) {
+  //   logger.warn('Erreur lors du suivi après plusieurs tentatives :', error.message);
+  // }
+
+  // Lancer GLS export indépendament
+  // try {
+  //   logger.info('Lancement de l\'export de GLS...');
+  //   await glsExport();
+  //   logger.info('Export de GLS terminé avec succès.');
+  // } catch (error) {
+  //   logger.warn('Erreur ou absence de nouvelles réclamations lors de l\'export de GLS', error.message);
+  // }
+
+  // Lancer GLS export indépendament
+  // try {
+  //   logger.info('Lancement de l\'import de GLS...');
+  //   await glsImport();
+  //   logger.info('Import de GLS terminé avec succès.');
+  // } catch (error) {
+  //   logger.warn('Erreur ou absence de nouvelles réclamations lors de l\'import de GLS', error.message);
+  // }
+
+  // Lancer le suivi de GLS indépendamment
+  // try {
+  //   logger.info('Lancement de l\'envoi du suivi de GLS...');
+  //   await glsSuivi();
+  //   logger.info('suivi de GLS terminé avec succès.');
+  // } catch (error) {
+  //   logger.warn('Erreur ou absence de nouvelles réclamations lors de l\'envoi du suivi de GLS', error.message);
+  // }
+
+  // // Lancer l'export de colis privé indépendament
+  // try {
+  //   logger.info('Lancement de l\'export de colis privé...');
+  //   await colisPriveExport();
+  //   logger.info('l\'export de  colis privé est terminé avec succès.');
+  // } catch (error) {
+  //   logger.warn('Erreur ou absence de nouvelles réclamations lors de l\'export de colis privé :', error.message);
+  // }
+
+  // // Lancer l'Import de colis privé indépendament
+  // try {
+  //   logger.info('Lancement de l\'Import de colis privé...');
+  //   await colisPriveImport();
+  //   logger.info('l\'Import de  colis privé est terminé avec succès.');
+  // } catch (error) {
+  //   logger.warn('Erreur ou absence de nouvelles réclamations lors de l\'Import de colis privé :', error.message);
+  // }
+
+  // Lancer l'Suivi de colis privé indépendament
   try {
-    logger.info('Lancement du suivi réclamation de Colissimo...');
-    await loginAndNavigateToClaims();
-    logger.info('Le suivi est envoyer avec succes.');
+    logger.info('Lancement du Suivi de colis privé...');
+    await colisPriveSuivi();
+    logger.info('l\'Suivi de  colis privé est terminé avec succès.');
   } catch (error) {
-    logger.warn('Erreur lors du suivi :', error.message);
+    logger.warn('Erreur ou absence de nouvelles réclamations lors du Suivi de colis privé :', error.message);
   }
 
-  
+
+
 
   logger.info('Toutes les opérations ont été effectuées (qu\'elles aient réussi ou échoué).');
 }
