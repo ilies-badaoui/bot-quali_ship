@@ -646,3 +646,45 @@
 2024-10-09 16:36:39 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
 2024-10-09 16:37:08 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
 2024-10-09 16:37:36 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:13:14 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:13:37 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:14:00 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:14:28 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:14:56 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:17:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:17:30 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:17:54 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:18:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:18:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:33:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:33:31 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:33:54 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:34:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:34:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:45:55 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:46:18 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:46:41 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:47:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:47:37 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:52:53 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-10 09:55:49 [error]: Erreur lors du retour au tableau de synthèse : Waiting for selector `#nouvel-element-a-charger` failed: Waiting failed: 60000ms exceeded
+2024-10-10 10:00:33 [error]: Erreur lors du retour au tableau de synthèse : Waiting for selector `#nouvel-element-a-charger` failed: Waiting failed: 60000ms exceeded
+2024-10-10 10:01:41 [error]: Erreur lors du retour au tableau de synthèse : Waiting for selector `#nouvel-element-a-charger` failed: Waiting failed: 60000ms exceeded
+2024-10-10 10:05:17 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-10 10:07:11 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-10 10:10:17 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 5000 ms exceeded
+2024-10-10 10:12:53 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:13:31 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:14:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:14:52 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:15:35 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:57:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:57:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:58:33 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:59:21 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 11:00:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 11:07:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 11:16:16 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 11:16:29 [error]: Erreur lors du retour au tableau de synthèse : Attempted to use detached Frame '4F028543C3DC53B00DB27B158C8BEAE4'.
+2024-10-10 11:16:29 [error]: Erreur lors de l'exécution du bot : Attempted to use detached Frame '4F028543C3DC53B00DB27B158C8BEAE4'.
+2024-10-10 11:39:27 [error]: Erreur lors de l'exécution du bot : Cannot destructure property 'refundStatus' of '(intermediate value)' as it is undefined.

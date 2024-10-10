@@ -5682,3 +5682,465 @@
 2024-10-09 16:37:43 [info]: Bot terminé.
 2024-10-09 16:37:43 [info]: Vérification des tickets de Chronopost terminé avec succès.
 2024-10-09 16:37:43 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 09:11:51 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 09:11:51 [info]: Lancement de l'export de Chronopost...
+2024-10-10 09:11:53 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:11:55 [info]: Tentative de connexion à Chronopost...
+2024-10-10 09:11:57 [info]: Connexion réussie.
+2024-10-10 09:12:13 [info]: Export de Chronopost terminé avec succès.
+2024-10-10 09:12:13 [info]: Lancement de l'import de Chronopost...
+2024-10-10 09:12:14 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:12:16 [info]: Tentative de connexion à Chronopost...
+2024-10-10 09:12:18 [info]: Connexion réussie.
+2024-10-10 09:12:38 [info]: Import de Chronopost terminé avec succès.
+2024-10-10 09:12:38 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 09:12:39 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:12:39 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:12:41 [info]: Tentative de connexion à Chronopost...
+2024-10-10 09:12:43 [info]: Connexion réussie.
+2024-10-10 09:12:43 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 09:12:44 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 09:12:45 [info]: Toutes les réclamations affichées.
+2024-10-10 09:12:45 [info]: Clique sur le ticket : 60423504
+2024-10-10 09:12:59 [info]: Statut de remboursement : 
+2024-10-10 09:12:59 [info]: Numéros d'envoi : [object Object], [object Object], [object Object], [object Object]
+2024-10-10 09:13:14 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:13:14 [info]: Clique sur le ticket : 60423560
+2024-10-10 09:13:22 [info]: Statut de remboursement : 
+2024-10-10 09:13:22 [info]: Numéros d'envoi : [object Object]
+2024-10-10 09:13:37 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:13:37 [info]: Clique sur le ticket : 60602494
+2024-10-10 09:13:45 [info]: Statut de remboursement : 
+2024-10-10 09:13:45 [info]: Numéros d'envoi : [object Object]
+2024-10-10 09:14:00 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:14:00 [info]: Clique sur le ticket : 60602523
+2024-10-10 09:14:13 [info]: Statut de remboursement : 
+2024-10-10 09:14:13 [info]: Numéros d'envoi : [object Object], [object Object], [object Object], [object Object]
+2024-10-10 09:14:28 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:14:28 [info]: Clique sur le ticket : 60602551
+2024-10-10 09:14:41 [info]: Statut de remboursement : 
+2024-10-10 09:14:41 [info]: Numéros d'envoi : [object Object], [object Object], [object Object], [object Object]
+2024-10-10 09:14:56 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:14:57 [info]: Fichier CSV généré avec succès.
+2024-10-10 09:14:57 [info]: Fermeture du navigateur...
+2024-10-10 09:15:04 [info]: Bot terminé.
+2024-10-10 09:15:04 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 09:15:04 [info]: Lancement de l'import de Colissimo...
+2024-10-10 09:15:08 [info]: Import de Colissimo terminé avec succès.
+2024-10-10 09:15:08 [info]: Lancement de l'export de Colissimo...
+2024-10-10 09:16:31 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 09:16:31 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 09:16:32 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:16:32 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:16:34 [info]: Tentative de connexion à Chronopost...
+2024-10-10 09:16:36 [info]: Connexion réussie.
+2024-10-10 09:16:36 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 09:16:38 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 09:16:39 [info]: Toutes les réclamations affichées.
+2024-10-10 09:16:39 [info]: Clique sur le ticket : 60423504
+2024-10-10 09:16:52 [info]: Statut de remboursement : 
+2024-10-10 09:16:52 [info]: Numéros d'envoi : [object Object], [object Object], [object Object], [object Object]
+2024-10-10 09:17:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:17:07 [info]: Clique sur le ticket : 60423560
+2024-10-10 09:17:15 [info]: Statut de remboursement : 
+2024-10-10 09:17:15 [info]: Numéros d'envoi : [object Object]
+2024-10-10 09:17:30 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:17:31 [info]: Clique sur le ticket : 60602494
+2024-10-10 09:17:39 [info]: Statut de remboursement : 
+2024-10-10 09:17:39 [info]: Numéros d'envoi : [object Object]
+2024-10-10 09:17:54 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:17:54 [info]: Clique sur le ticket : 60602523
+2024-10-10 09:18:07 [info]: Statut de remboursement : 
+2024-10-10 09:18:07 [info]: Numéros d'envoi : [object Object], [object Object], [object Object], [object Object]
+2024-10-10 09:18:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:18:22 [info]: Clique sur le ticket : 60602551
+2024-10-10 09:18:35 [info]: Statut de remboursement : 
+2024-10-10 09:18:35 [info]: Numéros d'envoi : [object Object], [object Object], [object Object], [object Object]
+2024-10-10 09:18:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:18:50 [info]: Fichier CSV généré avec succès.
+2024-10-10 09:18:51 [info]: Fermeture du navigateur...
+2024-10-10 09:18:57 [info]: Bot terminé.
+2024-10-10 09:18:57 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 09:18:57 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 09:32:32 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 09:32:32 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 09:32:33 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:32:33 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:32:34 [info]: Tentative de connexion à Chronopost...
+2024-10-10 09:32:36 [info]: Connexion réussie.
+2024-10-10 09:32:36 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 09:32:38 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 09:32:39 [info]: Toutes les réclamations affichées.
+2024-10-10 09:32:39 [info]: Clique sur le ticket : 60423504
+2024-10-10 09:32:52 [info]: Statut de remboursement : 
+2024-10-10 09:32:52 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 09:33:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:33:07 [info]: Clique sur le ticket : 60423560
+2024-10-10 09:33:15 [info]: Statut de remboursement : 
+2024-10-10 09:33:15 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 09:33:31 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:33:31 [info]: Clique sur le ticket : 60602494
+2024-10-10 09:33:39 [info]: Statut de remboursement : 
+2024-10-10 09:33:39 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093465344FR","status":"0"}]
+2024-10-10 09:33:54 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:33:54 [info]: Clique sur le ticket : 60602523
+2024-10-10 09:34:07 [info]: Statut de remboursement : 
+2024-10-10 09:34:07 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 09:34:22 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:34:22 [info]: Clique sur le ticket : 60602551
+2024-10-10 09:34:35 [info]: Statut de remboursement : 
+2024-10-10 09:34:35 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 09:34:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:34:50 [info]: Fichier CSV généré avec succès.
+2024-10-10 09:34:51 [info]: Fermeture du navigateur...
+2024-10-10 09:34:57 [info]: Bot terminé.
+2024-10-10 09:34:57 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 09:34:57 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 09:45:19 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 09:45:19 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 09:45:20 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:45:20 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:45:22 [info]: Tentative de connexion à Chronopost...
+2024-10-10 09:45:24 [info]: Connexion réussie.
+2024-10-10 09:45:24 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 09:45:25 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 09:45:26 [info]: Toutes les réclamations affichées.
+2024-10-10 09:45:26 [info]: Clique sur le ticket : 60423504
+2024-10-10 09:45:39 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 09:45:55 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:45:55 [info]: Clique sur le ticket : 60423560
+2024-10-10 09:46:03 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 09:46:18 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:46:18 [info]: Clique sur le ticket : 60602494
+2024-10-10 09:46:26 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093465344FR","status":"0"}]
+2024-10-10 09:46:41 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:46:41 [info]: Clique sur le ticket : 60602523
+2024-10-10 09:46:54 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 09:47:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:47:09 [info]: Clique sur le ticket : 60602551
+2024-10-10 09:47:22 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 09:47:37 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 15000 ms exceeded
+2024-10-10 09:47:37 [info]: Fichier CSV généré avec succès.
+2024-10-10 09:47:38 [info]: Fermeture du navigateur...
+2024-10-10 09:47:44 [info]: Bot terminé.
+2024-10-10 09:47:44 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 09:47:44 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 09:51:32 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 09:51:32 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 09:51:33 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:51:33 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:51:35 [info]: Tentative de connexion à Chronopost...
+2024-10-10 09:51:37 [info]: Connexion réussie.
+2024-10-10 09:51:37 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 09:51:39 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 09:51:40 [info]: Toutes les réclamations affichées.
+2024-10-10 09:51:40 [info]: Clique sur le ticket : 60423504
+2024-10-10 09:51:53 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 09:52:53 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-10 09:52:53 [info]: Clique sur le ticket : 60423560
+2024-10-10 09:54:29 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 09:54:29 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 09:54:29 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:54:29 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:54:32 [info]: Tentative de connexion à Chronopost...
+2024-10-10 09:54:33 [info]: Connexion réussie.
+2024-10-10 09:54:33 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 09:54:35 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 09:54:36 [info]: Toutes les réclamations affichées.
+2024-10-10 09:54:36 [info]: Clique sur le ticket : 60423504
+2024-10-10 09:54:49 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 09:54:49 [info]: L'élément #summary-menu > span est visible. Tentative de clic.
+2024-10-10 09:55:49 [error]: Erreur lors du retour au tableau de synthèse : Waiting for selector `#nouvel-element-a-charger` failed: Waiting failed: 60000ms exceeded
+2024-10-10 09:55:49 [info]: Clique sur le ticket : 60423560
+2024-10-10 09:59:17 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 09:59:17 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 09:59:17 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:59:17 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 09:59:20 [info]: Tentative de connexion à Chronopost...
+2024-10-10 09:59:22 [info]: Connexion réussie.
+2024-10-10 09:59:22 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 09:59:24 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 09:59:25 [info]: Toutes les réclamations affichées.
+2024-10-10 09:59:25 [info]: Clique sur le ticket : 60423504
+2024-10-10 09:59:33 [info]: Numéros d'envoi : [{"shipmentNumber":"","status":"0"}]
+2024-10-10 09:59:33 [info]: L'élément #summary-menu > span est visible. Tentative de clic.
+2024-10-10 10:00:33 [error]: Erreur lors du retour au tableau de synthèse : Waiting for selector `#nouvel-element-a-charger` failed: Waiting failed: 60000ms exceeded
+2024-10-10 10:00:33 [info]: Clique sur le ticket : 60423560
+2024-10-10 10:00:41 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 10:00:41 [info]: L'élément #summary-menu > span est visible. Tentative de clic.
+2024-10-10 10:01:41 [error]: Erreur lors du retour au tableau de synthèse : Waiting for selector `#nouvel-element-a-charger` failed: Waiting failed: 60000ms exceeded
+2024-10-10 10:01:41 [info]: Clique sur le ticket : 60602494
+2024-10-10 10:01:49 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093465344FR","status":"0"}]
+2024-10-10 10:01:49 [info]: L'élément #summary-menu > span est visible. Tentative de clic.
+2024-10-10 10:02:11 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 10:02:11 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 10:02:12 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:02:12 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:02:13 [info]: Tentative de connexion à Chronopost...
+2024-10-10 10:02:15 [info]: Connexion réussie.
+2024-10-10 10:02:15 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 10:02:17 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 10:02:18 [info]: Toutes les réclamations affichées.
+2024-10-10 10:02:18 [info]: Clique sur le ticket : 60423504
+2024-10-10 10:02:31 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 10:02:31 [info]: L'élément #summary-menu > span est visible. Tentative de clic.
+2024-10-10 10:02:31 [info]: Nouvel élément chargé après le clic sur #summary-menu > span.
+2024-10-10 10:02:31 [info]: Fichier CSV généré avec succès.
+2024-10-10 10:02:32 [info]: Fermeture du navigateur...
+2024-10-10 10:02:39 [info]: Bot terminé.
+2024-10-10 10:02:39 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 10:02:39 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 10:03:56 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 10:03:56 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 10:03:56 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:03:56 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:03:59 [info]: Tentative de connexion à Chronopost...
+2024-10-10 10:04:01 [info]: Connexion réussie.
+2024-10-10 10:04:01 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 10:04:02 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 10:04:03 [info]: Toutes les réclamations affichées.
+2024-10-10 10:04:03 [info]: Clique sur le ticket : 60423504
+2024-10-10 10:04:16 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 10:05:17 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-10 10:05:17 [info]: Clique sur le ticket : 60423560
+2024-10-10 10:05:50 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 10:05:50 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 10:05:50 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:05:50 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:05:53 [info]: Tentative de connexion à Chronopost...
+2024-10-10 10:05:55 [info]: Connexion réussie.
+2024-10-10 10:05:55 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 10:05:57 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 10:05:58 [info]: Toutes les réclamations affichées.
+2024-10-10 10:05:58 [info]: Clique sur le ticket : 60423504
+2024-10-10 10:06:11 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 10:07:11 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 60000 ms exceeded
+2024-10-10 10:07:11 [info]: Clique sur le ticket : 60423560
+2024-10-10 10:09:50 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 10:09:50 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 10:09:51 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:09:51 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:09:54 [info]: Tentative de connexion à Chronopost...
+2024-10-10 10:09:55 [info]: Connexion réussie.
+2024-10-10 10:09:55 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 10:09:57 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 10:09:58 [info]: Toutes les réclamations affichées.
+2024-10-10 10:09:58 [info]: Clique sur le ticket : 60423504
+2024-10-10 10:10:11 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 10:10:17 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 5000 ms exceeded
+2024-10-10 10:10:17 [info]: Clique sur le ticket : 60423560
+2024-10-10 10:12:01 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 10:12:01 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 10:12:02 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:12:02 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:12:05 [info]: Tentative de connexion à Chronopost...
+2024-10-10 10:12:07 [info]: Connexion réussie.
+2024-10-10 10:12:07 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 10:12:08 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 10:12:09 [info]: Toutes les réclamations affichées.
+2024-10-10 10:12:09 [info]: Clique sur le ticket : 60423504
+2024-10-10 10:12:22 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 10:12:53 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:12:53 [info]: Clique sur le ticket : 60423560
+2024-10-10 10:13:01 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 10:13:31 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:13:31 [info]: Clique sur le ticket : 60602494
+2024-10-10 10:13:39 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093465344FR","status":"0"}]
+2024-10-10 10:14:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:14:09 [info]: Clique sur le ticket : 60602523
+2024-10-10 10:14:22 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 10:14:52 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:14:52 [info]: Clique sur le ticket : 60602551
+2024-10-10 10:15:05 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 10:15:35 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:15:35 [info]: Fichier CSV généré avec succès.
+2024-10-10 10:15:36 [info]: Fermeture du navigateur...
+2024-10-10 10:15:42 [info]: Bot terminé.
+2024-10-10 10:15:42 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 10:15:42 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 10:51:36 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 10:51:36 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 10:51:38 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:51:38 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:51:41 [info]: Tentative de connexion à Chronopost...
+2024-10-10 10:51:43 [info]: Connexion réussie.
+2024-10-10 10:51:43 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 10:51:45 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 10:51:46 [info]: Toutes les réclamations affichées.
+2024-10-10 10:51:46 [info]: Clique sur le ticket : 60423504
+2024-10-10 10:51:59 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 10:51:59 [info]: Fichier CSV généré avec succès.
+2024-10-10 10:52:00 [info]: Fermeture du navigateur...
+2024-10-10 10:52:06 [info]: Bot terminé.
+2024-10-10 10:52:06 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 10:52:06 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 10:53:52 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 10:53:52 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 10:53:52 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:53:52 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:53:54 [info]: Tentative de connexion à Chronopost...
+2024-10-10 10:53:56 [info]: Connexion réussie.
+2024-10-10 10:53:56 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 10:53:58 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 10:53:59 [info]: Toutes les réclamations affichées.
+2024-10-10 10:53:59 [info]: Clique sur le ticket : 60423504
+2024-10-10 10:54:12 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 10:54:12 [info]: Fichier CSV généré avec succès.
+2024-10-10 10:54:13 [info]: Fermeture du navigateur...
+2024-10-10 10:54:19 [info]: Bot terminé.
+2024-10-10 10:54:19 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 10:54:19 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 10:56:10 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 10:56:10 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 10:56:11 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:56:11 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 10:56:14 [info]: Tentative de connexion à Chronopost...
+2024-10-10 10:56:16 [info]: Connexion réussie.
+2024-10-10 10:56:16 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 10:56:17 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 10:56:18 [info]: Toutes les réclamations affichées.
+2024-10-10 10:56:18 [info]: Clique sur le ticket : 60423504
+2024-10-10 10:56:31 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 10:57:07 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:57:07 [info]: Clique sur le ticket : 60423560
+2024-10-10 10:57:15 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 10:57:50 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:57:50 [info]: Clique sur le ticket : 60602494
+2024-10-10 10:57:58 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093465344FR","status":"0"}]
+2024-10-10 10:58:33 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:58:33 [info]: Clique sur le ticket : 60602523
+2024-10-10 10:58:46 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 10:59:21 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 10:59:21 [info]: Clique sur le ticket : 60602551
+2024-10-10 10:59:34 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 11:00:09 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 11:00:09 [info]: Fichier CSV généré avec succès.
+2024-10-10 11:00:10 [info]: Fermeture du navigateur...
+2024-10-10 11:00:17 [info]: Bot terminé.
+2024-10-10 11:00:17 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 11:00:17 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 11:06:41 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 11:06:41 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 11:06:42 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 11:06:42 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 11:06:44 [info]: Tentative de connexion à Chronopost...
+2024-10-10 11:06:46 [info]: Connexion réussie.
+2024-10-10 11:06:46 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 11:06:48 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 11:06:49 [info]: Toutes les réclamations affichées.
+2024-10-10 11:06:49 [info]: Clique sur le ticket : 60423504
+2024-10-10 11:07:02 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 11:07:38 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 11:07:38 [info]: Clique sur le ticket : 60423560
+2024-10-10 11:07:46 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 11:15:18 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 11:15:18 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 11:15:19 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 11:15:19 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 11:15:22 [info]: Tentative de connexion à Chronopost...
+2024-10-10 11:15:24 [info]: Connexion réussie.
+2024-10-10 11:15:24 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 11:15:26 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 11:15:27 [info]: Toutes les réclamations affichées.
+2024-10-10 11:15:28 [info]: Clique sur le ticket : 60423504
+2024-10-10 11:15:41 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 11:16:16 [error]: Erreur lors du retour au tableau de synthèse : Navigation timeout of 30000 ms exceeded
+2024-10-10 11:16:16 [info]: Clique sur le ticket : 60423560
+2024-10-10 11:16:24 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 11:16:29 [error]: Erreur lors du retour au tableau de synthèse : Attempted to use detached Frame '4F028543C3DC53B00DB27B158C8BEAE4'.
+2024-10-10 11:16:29 [error]: Erreur lors de l'exécution du bot : Attempted to use detached Frame '4F028543C3DC53B00DB27B158C8BEAE4'.
+2024-10-10 11:16:29 [info]: Fermeture du navigateur...
+2024-10-10 11:17:18 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 11:17:18 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 11:17:19 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 11:17:19 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 11:17:22 [info]: Tentative de connexion à Chronopost...
+2024-10-10 11:17:24 [info]: Connexion réussie.
+2024-10-10 11:17:24 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 11:17:26 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 11:17:27 [info]: Toutes les réclamations affichées.
+2024-10-10 11:17:27 [info]: Clique sur le ticket : 60423504
+2024-10-10 11:17:40 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 11:17:45 [info]: Clique sur le ticket : 60423560
+2024-10-10 11:17:53 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 11:17:58 [info]: Clique sur le ticket : 60602494
+2024-10-10 11:18:06 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093465344FR","status":"0"}]
+2024-10-10 11:18:12 [info]: Clique sur le ticket : 60602523
+2024-10-10 11:18:25 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 11:18:30 [info]: Clique sur le ticket : 60602551
+2024-10-10 11:18:43 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 11:18:48 [info]: Fichier CSV généré avec succès.
+2024-10-10 11:18:49 [info]: Fermeture du navigateur...
+2024-10-10 11:18:55 [info]: Bot terminé.
+2024-10-10 11:18:55 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 11:18:55 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 11:39:06 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 11:39:06 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 11:39:06 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 11:39:06 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 11:39:09 [info]: Tentative de connexion à Chronopost...
+2024-10-10 11:39:11 [info]: Connexion réussie.
+2024-10-10 11:39:11 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 11:39:13 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 11:39:14 [info]: Toutes les réclamations affichées.
+2024-10-10 11:39:14 [info]: Clique sur le ticket : 60423504
+2024-10-10 11:39:27 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 11:39:27 [error]: Erreur lors de l'exécution du bot : Cannot destructure property 'refundStatus' of '(intermediate value)' as it is undefined.
+2024-10-10 11:39:27 [info]: Fermeture du navigateur...
+2024-10-10 11:39:33 [info]: Bot terminé.
+2024-10-10 11:39:33 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 11:39:33 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 11:53:59 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 11:53:59 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 11:53:59 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 11:53:59 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 11:54:03 [info]: Tentative de connexion à Chronopost...
+2024-10-10 11:54:04 [info]: Connexion réussie.
+2024-10-10 11:54:04 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 11:54:06 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 11:54:07 [info]: Toutes les réclamations affichées.
+2024-10-10 11:54:07 [info]: Clique sur le ticket : 60423504
+2024-10-10 11:54:21 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 11:54:21 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 11:54:26 [info]: Clique sur le ticket : 60423560
+2024-10-10 11:54:34 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 11:54:39 [info]: Clique sur le ticket : 60602494
+2024-10-10 11:54:47 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093465344FR","status":"0"}]
+2024-10-10 11:54:52 [info]: Clique sur le ticket : 60602523
+2024-10-10 11:55:05 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 11:55:05 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 11:55:10 [info]: Clique sur le ticket : 60602551
+2024-10-10 11:55:23 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 11:55:23 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 11:55:29 [info]: Fichier CSV généré avec succès.
+2024-10-10 11:55:29 [info]: Fermeture du navigateur...
+2024-10-10 11:55:36 [info]: Bot terminé.
+2024-10-10 11:55:36 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 11:55:36 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).
+2024-10-10 13:43:43 [info]: Démarrage de toutes les opérations des bots...
+2024-10-10 13:43:43 [info]: Lancement de la vérification des tickets de Chronopost...
+2024-10-10 13:43:45 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 13:43:45 [info]: Démarrage du bot - Accès à la page de connexion de Chronopost.
+2024-10-10 13:43:47 [info]: Tentative de connexion à Chronopost...
+2024-10-10 13:43:49 [info]: Connexion réussie.
+2024-10-10 13:43:49 [info]: Accès à la page Tableau de Synthèse.
+2024-10-10 13:43:51 [info]: Accès au Tableau de synthèse réussi.
+2024-10-10 13:43:52 [info]: Toutes les réclamations affichées.
+2024-10-10 13:43:52 [info]: Clique sur le ticket : 60423504
+2024-10-10 13:44:05 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 13:44:05 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090867511FR","status":"Validé"},{"shipmentNumber":"XR090867539FR","status":"Validé"},{"shipmentNumber":"XR090867508FR","status":"Validé"},{"shipmentNumber":"XR090867499FR","status":"Validé"}]
+2024-10-10 13:44:10 [info]: Clique sur le ticket : 60423560
+2024-10-10 13:44:18 [info]: Numéros d'envoi : [{"shipmentNumber":"XR090854671FR","status":"1"}]
+2024-10-10 13:44:23 [info]: Clique sur le ticket : 60602494
+2024-10-10 13:44:31 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093465344FR","status":"0"}]
+2024-10-10 13:44:36 [info]: Clique sur le ticket : 60602523
+2024-10-10 13:44:50 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 13:44:50 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093669166FR","status":"Validé"},{"shipmentNumber":"XR093669170FR","status":"Validé"},{"shipmentNumber":"XR093669183FR","status":"Validé"},{"shipmentNumber":"XR093669149FR","status":"Validé"}]
+2024-10-10 13:44:55 [info]: Clique sur le ticket : 60602551
+2024-10-10 13:45:08 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 13:45:08 [info]: Numéros d'envoi : [{"shipmentNumber":"XR093676405FR","status":"Validé"},{"shipmentNumber":"XR093676391FR","status":"Validé"},{"shipmentNumber":"XR093676414FR","status":"Validé"},{"shipmentNumber":"XR093676388FR","status":"Validé"}]
+2024-10-10 13:45:13 [info]: Fichier CSV généré avec succès.
+2024-10-10 13:45:14 [info]: Fermeture du navigateur...
+2024-10-10 13:45:20 [info]: Bot terminé.
+2024-10-10 13:45:20 [info]: Vérification des tickets de Chronopost terminé avec succès.
+2024-10-10 13:45:20 [info]: Toutes les opérations ont été effectuées (qu'elles aient réussi ou échoué).

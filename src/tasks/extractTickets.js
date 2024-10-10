@@ -10,30 +10,38 @@ async function extractMultipleShipmentNumbers(page) {
   let shipmentNumbers = []; // Initialiser un tableau pour stocker les numéros d'envoi et statuts
 
   try {
-    // Sélecteur pour le survol
+    // Étape 1 : Vérifier si le bouton "Afficher les statuts" est présent
+    console.log(
+      'Etape 1 : Vérification de la présence du bouton "Afficher les statuts"...'
+    );
     const hoverSelector =
       "#form2 > div.comment-top > div:nth-child(1) > div > p > span.sm-table-cell.info-text.sm-hidden > span";
 
-    // Vérifier si le bouton "Afficher les statuts" est visible
     const isHoverVisible = await page.evaluate((selector) => {
       return document.querySelector(selector) !== null;
     }, hoverSelector);
 
     if (isHoverVisible) {
       console.log(
-        "Le bouton 'Afficher les statuts' est présent, tentative de survol..."
+        'Etape 2 : Bouton "Afficher les statuts" trouvé, tentative de survol...'
       );
 
       try {
-        // Survoler pour faire apparaître le popup
+        // Étape 3 : Attendre que l'élément soit visible puis le survoler
+        console.log("Etape 3 : En attente du sélecteur pour survol...");
         await page.waitForSelector(hoverSelector, {
           visible: true,
           timeout: 5000,
         });
+        console.log("Sélecteur trouvé, survol en cours...");
         await page.hover(hoverSelector);
+        console.log("Survol réussi, attente du popup...");
         await delay(5000); // Attendre que le popup apparaisse
 
-        // Sélectionner séparément les numéros d'envoi et leurs statuts
+        // Étape 4 : Extraire les informations des numéros d'envoi et des statuts
+        console.log(
+          "Etape 4 : Extraction des numéros d'envoi et des statuts..."
+        );
         const refunds = await page.evaluate(() => {
           const refundRows = Array.from(
             document.querySelectorAll(
@@ -41,18 +49,16 @@ async function extractMultipleShipmentNumbers(page) {
             )
           );
 
-          return refundRows.map((row) => {
-            const text = row.innerText.trim();
-            return text;
-          });
+          return refundRows.map((row) => row.innerText.trim()); // Extraire et nettoyer le texte de chaque élément
         });
+        console.log("Extraction réussie.");
 
-        // Traiter les remboursements (séparation des numéros d'envoi et des statuts)
+        // Étape 5 : Traiter les données extraites
+        console.log("Etape 5 : Traitement des données extraites...");
         refunds.forEach((refund, index) => {
           const parts = refund.split(":"); // Séparer numéro d'envoi et statut
 
           if (parts.length === 2) {
-            // Si on a bien un numéro d'envoi et un statut
             const shipmentNumber = parts[0].trim();
             const status = parts[1].trim();
             console.log(
@@ -69,11 +75,11 @@ async function extractMultipleShipmentNumbers(page) {
             console.log(`Erreur de format pour l'entrée : ${refund}`);
           }
         });
+        console.log("Traitement des données terminé.");
 
-        // Si vous voulez seulement les numéros d'envoi (sans les statuts)
-        const shipmentNumbersList = shipmentNumbers.map(
-          (item) => item.shipmentNumber
-        );
+        // Étape 6 : Loguer les numéros d'envoi collectés
+        console.log("Etape 6 : Log des numéros d'envoi...");
+        logger.info("Numéros d'envoi : " + JSON.stringify(shipmentNumbers));
       } catch (hoverError) {
         console.error(
           "Erreur lors du survol pour afficher les statuts : " +
@@ -81,7 +87,9 @@ async function extractMultipleShipmentNumbers(page) {
         );
       }
     } else {
-      // Si le hover n'est pas visible, utiliser extractSingleShipmentNumber
+      console.log(
+        'Etape 2b : Le bouton "Afficher les statuts" n\'est pas visible, utilisation de la méthode alternative...'
+      );
       const { shipmentNumber, refundStatus: altRefundStatus } =
         await extractSingleShipmentNumber(page);
       refundStatus = altRefundStatus;
@@ -102,7 +110,8 @@ async function extractSingleShipmentNumber(page) {
   let refundStatus = "0";
 
   try {
-    // Récupérer le N° d'envoi et supprimer tout texte supplémentaire comme "N° d'envoi : " et les espaces insécables
+    // Étape 1 : Récupérer le numéro d'envoi
+    console.log("Etape 1 : Extraction du numéro d'envoi...");
     shipmentNumber = await page.$eval(
       "#tab2 > div > div.ticket-infos > ul > li.package-number-info > span > a",
       (element) =>
@@ -113,7 +122,8 @@ async function extractSingleShipmentNumber(page) {
     );
     console.log("Numéro d'envoi extrait :", shipmentNumber);
 
-    // Récupérer le statut du remboursement
+    // Étape 2 : Récupérer le statut du remboursement
+    console.log("Etape 2 : Extraction du statut du remboursement...");
     try {
       refundStatus = await page.$eval(
         "#form2 > div.comment-top > div:nth-child(1) > p:nth-child(2) > span > span",
@@ -142,8 +152,8 @@ async function extractSingleShipmentNumber(page) {
     }
   } catch (error) {
     console.error(
-      "Erreur lors de la récupération du numéro d'envoi :",
-      error.message
+      "Erreur lors de l'extraction du numéro d'envoi ou du statut : " +
+        error.message
     );
   }
 
